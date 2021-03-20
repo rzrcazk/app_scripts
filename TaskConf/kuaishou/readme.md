@@ -103,8 +103,8 @@ https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-head
 2. 本地重写配置文件内容
 hostname = nebula.kuaishou.com, activity.m.kuaishou.com
 
-https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js   
+https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/kuaishou.js
+https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/kuaishou.js   
 
 
   
