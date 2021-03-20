@@ -107,6 +107,11 @@ https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list ur
 https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/kuaishou.js   
 
 
+3 定时任务
+
+1 0 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/kuaishou.js, tag=快手视频
+
+
   
   
   
