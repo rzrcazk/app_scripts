@@ -146,16 +146,12 @@ echo "#必须要的默认定时任务请勿删除" >> ${mergedListFile}
 echo ""${random_min}" "${run_hour}" * * * docker_entrypoint.sh >> /scripts/logs/default_task.log 2>&1" >> ${mergedListFile}
 
 
-
-
 echo "第7步增加 |ts 任务日志输出时间戳..."
 sed -i "/\( ts\| |ts\|| ts\)/!s/>>/\|ts >>/g" $mergedListFile
 
-echo "第8步执行proc_file.sh脚本任务..."
-sh -x /scripts/docker/proc_file.sh
 
-echo "第9步加载最新的定时任务文件..."
+echo "第8步加载最新的定时任务文件..."
 crontab $mergedListFile
 
-echo "第10步将仓库的docker_entrypoint.sh脚本更新至系统/usr/local/bin/docker_entrypoint.sh内..."
+echo "第9步将仓库的docker_entrypoint.sh脚本更新至系统/usr/local/bin/docker_entrypoint.sh内..."
 cat /scripts/docker/docker_entrypoint.sh >/usr/local/bin/docker_entrypoint.sh
