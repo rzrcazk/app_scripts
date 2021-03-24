@@ -64,7 +64,7 @@ http-response https:\/\/bububao\.duoshoutuan\.com\/user\/* script-path=https://r
 GXRZ = '3.23 设置CASH为1000则在23.59分执行1秒的50元循环提现，以此类推'
 const $ = Env("步步宝");
 $.idx = ($.idx = ($.getval('bububaoSuffix') || '1') - 1) > 0 ? ($.idx + 1 + '') : ''; // 账号扩展字符
-const notify = $.isNode() ? require("../sendNotify") : ``;
+const notify = $.isNode() ? require("./sendNotify") : ``;
 const COOKIE = $.isNode() ? require("./bububaoCOOKIE") : ``;
 const logs = 0; // 0为关闭日志，1为开启
 const notifyttt = 1 // 0为关闭外部推送，1为12 23 点外部推送
