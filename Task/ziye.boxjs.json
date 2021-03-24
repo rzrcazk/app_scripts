@@ -2,7 +2,7 @@
     "id": "ziye.app.sub",
     "name": "同步ziye 脚本订阅",
     "author": "@yanjuan",
-    "icon": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/ziye.png",
+    "icon": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ziye.png",
     "repo": "https://github.com/rzrcazk/app_scripts",
     "apps": [{
             "id": "qczjspeed",
