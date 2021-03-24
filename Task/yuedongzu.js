@@ -1,8 +1,8 @@
 /* ziye 
-github地址 https://github.com/ziye11
+github地址 https://github.com/6Svip120apk69
 TG频道地址  https://t.me/ziyescript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/ziye.boxjs.json
+boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/ziye.boxjs.json
 
 转载请备注个名字，谢谢
 
@@ -17,6 +17,7 @@ boxjs链接  https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/ziye.
 3.2-3 增加10分钟限速，修复用户名判定，修复视频助力
 3.3 完善提现判定，修复睡觉，解决资讯赚报错问题
 3.4 取消限速
+3.8 替换为循环获取ck
 
 ⚠️ 时间设置    0,30 0-23 * * *    每天 25次以上就行 
 
@@ -33,7 +34,7 @@ boxjs链接  https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/ziye.
 
 登录悦动族  获取token
 
-yuedongzutokenVal 👉YDZ_YUEDONGZUTOKEN
+yuedongzutokenVal 👉YDZ_yuedongzuTOKEN
 CASH  👉  YDZ_CASH     可设置0 0.3 1 5 50 100 200 888  默认0关闭提现，设置888由上至下循环提现
 
 ⚠️主机名以及重写👇
@@ -41,20 +42,15 @@ hostname=yuedongzu.yichengw.cn,
 
 ############## 圈x
 #悦动族获取TOKEN
-https:\/\/yuedongzu\.yichengw\.cn\/* url script-request-header https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/yuedongzu.js
-
-## rewrite remote
-https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/YueDongZu/getck.conf, tag=悦动族ck获取(ziye, update-interval=86400, opt-parser=false, enabled=true
-
-
+https:\/\/yuedongzu\.yichengw\.cn\/* url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/yuedongzu.js
 
 ############## loon
 #悦动族获取TOKEN
-http-response https:\/\/yuedongzu\.yichengw\.cn\/* script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/yuedongzu.js, requires-body=1,max-size=0, tag=悦动族获取TOKEN
+http-response https:\/\/yuedongzu\.yichengw\.cn\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/yuedongzu.js, requires-body=1,max-size=0, tag=悦动族获取TOKEN
 
 ############## surge
 #悦动族获取TOKEN
-悦动族获取TOKEN = type=http-response,pattern=https:\/\/yuedongzu\.yichengw\.cn\/*,script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/yuedongzu.js
+悦动族获取TOKEN = type=http-response,pattern=https:\/\/yuedongzu\.yichengw\.cn\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/yuedongzu.js
 
 
 */
@@ -72,20 +68,22 @@ let yuedongzutokenVal = ``;
 let middleyuedongzuTOKEN = [];
 if ($.isNode()) {
     // 没有设置 YDZ_CASH 则默认为 0 不兑换
-    CASH = process.env.YDZ_CASH || 888;
+    CASH = process.env.YDZ_CASH || 0;
 }
-if ($.isNode() && process.env.YDZ_YUEDONGZUTOKEN) {
+if ($.isNode() && process.env.YDZ_yuedongzuTOKEN) {
     COOKIES_SPLIT = process.env.COOKIES_SPLIT || "\n";
     console.log(
-       // `============ cookies分隔符为：${JSON.stringify(COOKIES_SPLIT)} =============\n`
+        `============ cookies分隔符为：${JSON.stringify(
+      COOKIES_SPLIT
+    )} =============\n`
     );
     if (
-        process.env.YDZ_YUEDONGZUTOKEN &&
-        process.env.YDZ_YUEDONGZUTOKEN.indexOf(COOKIES_SPLIT) > -1
+        process.env.YDZ_yuedongzuTOKEN &&
+        process.env.YDZ_yuedongzuTOKEN.indexOf(COOKIES_SPLIT) > -1
     ) {
-        middleyuedongzuTOKEN = process.env.YDZ_YUEDONGZUTOKEN.split(COOKIES_SPLIT);
+        middleyuedongzuTOKEN = process.env.YDZ_yuedongzuTOKEN.split(COOKIES_SPLIT);
     } else {
-        middleyuedongzuTOKEN = process.env.YDZ_YUEDONGZUTOKEN.split();
+        middleyuedongzuTOKEN = process.env.YDZ_yuedongzuTOKEN.split();
     }
 }
 if (COOKIE.yuedongzutokenVal) {
@@ -130,11 +128,38 @@ function GetCookie() {
     }
     if ($request && $request.url.indexOf("profile") >= 0) {
         const yuedongzutokenVal = $request.headers.Authorization;
-        if (yuedongzutokenVal) $.setdata(yuedongzutokenVal, "yuedongzutoken" + $.idx);
-        $.log(
-            `[${$.name + $.idx}] 获取yuedongzutokenVal✅: 成功,yuedongzutokenVal: ${yuedongzutokenVal}`
-        );
-        $.msg($.name + $.idx, `获取yuedongzutokenVal: 成功🎉`, ``);
+        if (yuedongzutokenVal) {
+            cookie()
+
+            function cookie() {
+                bodys = $.getdata('yuedongzutoken' + $.idx);
+                 if (bodys) {
+                    if (bodys.indexOf(yuedongzutokenVal) >= 0) {
+                        $.log(
+                            `[${$.name + $.idx}] yuedongzutokenVal已存在✅: yuedongzutokenVal: ${yuedongzutokenVal}`
+                        );
+                        $.msg($.name + $.idx, `yuedongzutokenVal已存在: 🎉`, ``);
+                        $.done();
+                    } else if ($.idx == '') {
+                        $.idx = 2
+                        cookie()
+                    } else {
+                        $.idx = $.idx + 1
+                        cookie()
+                    }
+                } else {
+                    {
+                        $.setdata(yuedongzutokenVal, "yuedongzutoken" + $.idx);
+                        $.log(
+                            `[${$.name + $.idx}] 获取yuedongzutokenVal✅: 成功,yuedongzutokenVal: ${yuedongzutokenVal}`
+                        );
+                        $.msg($.name + $.idx, `获取yuedongzutokenVal: 成功🎉`, ``);
+
+                        $.done();
+                    }
+                };
+            }
+        }
     }
 }
 console.log(
