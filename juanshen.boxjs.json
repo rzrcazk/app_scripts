@@ -38,9 +38,9 @@
                     "desc": "默认0点后提现，可设置 0 ~ 23  "
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/qczjspeed.js",
-            "icons": ["https://raw.githubusercontent.com/Orz-3/task/master/qczj.png", "https://raw.githubusercontent.com/Orz-3/task/master/qczj.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/qczjspeed.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczj.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczj.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.js"
         },
         {
             "id": "xiaole",
@@ -62,9 +62,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/xiaole.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/xiaole.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/xiaole.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/xiaole.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js",
+            "icons",: ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js"
         },
         {
             "id": "iboxpay",
@@ -114,9 +114,9 @@
                     "desc": "输入短信验证码，默认为0，不启动获取token功能"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/iboxpay.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/iboxpay.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/iboxpay.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/iboxpay.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js"
         },
         {
             "id": "flw",
@@ -152,9 +152,9 @@
                     "desc": "默认0，可设置设置 0 5 50 100"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/flw.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/flw.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/flw.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/flw.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/flw.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/flw.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/flw.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/flw.js"
         },
         {
             "id": "githubAC",
@@ -183,9 +183,9 @@
                     "desc": "可设置0 不启动、js序号数 指定哪个js任务随githubAC运行而启动、 888 全部js启动"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/githubAC.js",
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/githubAC.js",
             "icons": ["https://github.githubassets.com/images/modules/site/home/astro-mona.jpg", "https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/githubAC.js"
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/githubAC.js"
         },
         {
             "id": "zhima",
@@ -214,9 +214,9 @@
                     "desc": "0不提现，可设置 0 0.3 0.5 1 5 10 30 50 100 等"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/zhima.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/zhima.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/zhima.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/zhima.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js"
         },
         {
             "id": "QQread",
@@ -238,9 +238,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/QQread.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/QQread.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/QQread.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/QQread.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/QQread.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/QQread.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/QQread.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/QQread.js"
         },
         {
             "id": "bububao",
@@ -269,9 +269,9 @@
                     "desc": "0不提现，可设置 0 0.3 50 100 200 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/bububao.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/bububao.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/bububao.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/bububao.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/bububao.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/bububao.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/bububao.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/bububao.js"
         },
         {
             "id": "yuedongzu",
@@ -300,9 +300,9 @@
                     "desc": "0不提现，可设置 0 0.3 1 5 50 100 200 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/yuedongzu.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/yuedongzu.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/yuedongzu.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/yuedongzu.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/yuedongzu.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/yuedongzu.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/yuedongzu.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/yuedongzu.js"
         },
         {
             "id": "qmyd",
@@ -331,9 +331,9 @@
                     "desc": "0不提现，可设置 0 0.3 1 10 20 30 100 200 300 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/qmyd.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/qmyd.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/qmyd.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/yuedongzu.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qmyd.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qmyd.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qmyd.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/yuedongzu.js"
         }, {
             "id": "shuqi",
             "name": "书旗小说APP",
@@ -361,9 +361,9 @@
                     "desc": "0关闭 1开启,默认关闭"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/shuqi.js",
-            "icons": ["https://raw.githubusercontent.com/rzcrazk/app_scripts/master/shuqi.png", "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/shuqi.png"],
-            "script": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/yuedongzu.js"
+            "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js",
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.png"],
+            "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/yuedongzu.js"
         }
     ]
 }

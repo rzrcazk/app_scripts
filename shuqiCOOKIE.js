@@ -1,6 +1,6 @@
 /* juanshen
 独立COOKIE文件
-github地址 https://github.com/rzcrazk
+github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
 boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
