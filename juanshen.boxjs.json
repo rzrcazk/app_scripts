@@ -63,7 +63,7 @@
                 }
             ],
             "repo": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js",
-            "icons",: ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png"],
+            "icons": ["https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png", "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png"],
             "script": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js"
         },
         {
