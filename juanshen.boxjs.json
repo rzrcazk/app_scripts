@@ -2,7 +2,7 @@
     "id": "juanshen.app.sub",
     "name": "juanshen脚本订阅",
     "author": "@juanshen",
-    "icon": "https://raw.githubusercontent.com/rzcrazk/app_scripts/master/juanshen.png",
+    "icon": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.jpeg",
     "repo": "https://github.com/rzrcazk/app_scripts",
     "apps": [{
             "id": "qczjspeed",
