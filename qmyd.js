@@ -1,8 +1,8 @@
-/* ziye 
-github地址 https://github.com/6Svip120apk69
-TG频道地址  https://t.me/ziyescript
+/* juanshen
+github地址 https://github.com/rzcrazk
+TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/ziye.boxjs.json
+boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 
@@ -37,15 +37,15 @@ hostname=qmyd.yichengw.cn,
 
 ############## 圈x
 #全民悦动获取TOKEN
-https:\/\/qmyd\.yichengw\.cn\/* url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/qmyd.js
+https:\/\/qmyd\.yichengw\.cn\/* url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qmyd.js
 
 ############## loon
 #全民悦动获取TOKEN
-http-response https:\/\/qmyd\.yichengw\.cn\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/qmyd.js, requires-body=1,max-size=0, tag=全民悦动获取TOKEN
+http-response https:\/\/qmyd\.yichengw\.cn\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qmyd.js, requires-body=1,max-size=0, tag=全民悦动获取TOKEN
 
 ############## surge
 #全民悦动获取TOKEN
-全民悦动获取TOKEN = type=http-response,pattern=https:\/\/qmyd\.yichengw\.cn\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/qmyd.js
+全民悦动获取TOKEN = type=http-response,pattern=https:\/\/qmyd\.yichengw\.cn\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qmyd.js
 
 */
 const $ = Env("全民悦动");

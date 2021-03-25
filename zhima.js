@@ -1,8 +1,8 @@
-/* ziye 
-github地址 https://github.com/6Svip120apk69
-TG频道地址  https://t.me/ziyescript
+/* juanshen
+github地址 https://github.com/rzcrazk
+TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/ziye.boxjs.json
+boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
 转载请备注个名字，谢谢
 
 ⚠️芝嫲视频
@@ -50,16 +50,16 @@ hostname=api.sxsjyzm.com,
 ############## 圈x
 
 #芝嫲视频获取body
-https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/zhima.js
+https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js
 
 ############## loon
 #芝嫲视频获取body
-http-request https:\/\/api\.sxsjyzm\.com\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/zhima.js,requires-body=true, tag=芝嫲视频获取body
+http-request https:\/\/api\.sxsjyzm\.com\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js,requires-body=true, tag=芝嫲视频获取body
 
 ############## surge
 
 #芝嫲视频获取body
-芝嫲视频获取body = type=http-request,pattern=https:\/\/api\.sxsjyzm\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/zhima.js
+芝嫲视频获取body = type=http-request,pattern=https:\/\/api\.sxsjyzm\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js
 
 
 

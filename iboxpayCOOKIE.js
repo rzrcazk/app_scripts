@@ -1,11 +1,11 @@
 
 
-/* ziye
+/* juanshen
 独立COOKIE文件
-github地址 https://github.com/6Svip120apk69
-TG频道地址  https://t.me/ziyescript
+github地址 https://github.com/rzcrazk
+TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/ziye.boxjs.json
+boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 

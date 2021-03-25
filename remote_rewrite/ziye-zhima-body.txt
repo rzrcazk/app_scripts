@@ -1,7 +1,7 @@
 hostname=api.sxsjyzm.com,
 ############## 圈x
 
-### https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/ziye/bububao.js
+### https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen/bububao.js
 
 #芝嫲视频获取body
-https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/zhima.js
+https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js

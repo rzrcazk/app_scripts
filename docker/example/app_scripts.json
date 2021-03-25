@@ -13,9 +13,35 @@
          "value" : "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
       },
       {
+         "key" : "XP_CASH",
+         "value" : "1"
+      },
+      {
+         "key" : "XP_live",
+         "value" : "1"
+      },
+      {
+         "key" : "XP_refreshTOKEN",
+         "value" : "1"
+      },
+      {
+         "key" : "XP_iboxpayvideoHEADER",
+         "value" : "1"
+      },
+      {
+         "key" : "XP_iboxpayvideoBODY",
+         "value" : "1"
+      },
+
+      {
          "key" : "QYWX_KEY",
          "value" : "f82d1d23-7689-47b2-9cea-c56efa13a598"
       },
+      {
+         "key" : "QYWX_KEY",
+         "value" : "f82d1d23-7689-47b2-9cea-c56efa13a598"
+      },
+
       {
          "key" : "YDZ_YUEDONGZUTOKEN",
          "value" : "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveXVlZG9uZ3p1LnlpY2hlbmd3LmNuXC9hcHBzXC9sb2dpblwvd2VjaGF0IiwiaWF0IjoxNjE1MjI0NzA0LCJleHAiOjIwNTM2ODI0NzA0LCJuYmYiOjE2MTUyMjQ3MDQsImp0aSI6IlNwUkZSMWozenVtWlpmU2ciLCJzdWIiOjM1NTYxLCJwcnYiOiI0MWRmODgzNGYxYjk4ZjcwZWZhNjBhYWVkZWY0MjM0MTM3MDA2OTBjIn0.fhO57i8E37FqwetRo4uvCwaHW9zQ9JBNrkCbRBzaVwEjuanshenbearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveXVlZG9uZ3p1LnlpY2hlbmd3LmNuXC9hcHBzXC9sb2dpblwvd2VjaGF0IiwiaWF0IjoxNjE0ODczNTU5LCJleHAiOjIwNTM2NDczNTU5LCJuYmYiOjE2MTQ4NzM1NTksImp0aSI6Ik9CeEw3RXdJeUZOSEhPYVciLCJzdWIiOjM1NzAyLCJwcnYiOiI0MWRmODgzNGYxYjk4ZjcwZWZhNjBhYWVkZWY0MjM0MTM3MDA2OTBjIn0.C-hpw1bCqzzoTMlkZfDZ9ZB6nI_wk6NqApEMRmQVQRkjuanshenBearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveXVlZG9uZ3p1LnlpY2hlbmd3LmNuXC9hcHBzXC9sb2dpblwvd2VjaGF0IiwiaWF0IjoxNjE0ODgxNzc3LCJleHAiOjIwNTM2NDgxNzc3LCJuYmYiOjE2MTQ4ODE3NzcsImp0aSI6ImlMdWFvbHIwT21lcGNmNjIiLCJzdWIiOjM1NzMxLCJwcnYiOiI0MWRmODgzNGYxYjk4ZjcwZWZhNjBhYWVkZWY0MjM0MTM3MDA2OTBjIn0.Wzovz-hZdY3IfMwoLhFQbUla8x9OYzt87IABcYXCNC4"

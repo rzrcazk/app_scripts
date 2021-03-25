@@ -1,4 +1,4 @@
 hostname =jcollection.shuqireader.com,
 
 #时长
-https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/Task/shuqi.js
+https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
