@@ -30,3 +30,7 @@
 
 ## 步步宝
 0,30 0-23 * * * node /scripts/bububao.js >> /scripts/logs/bububao.log 2>&1
+
+
+## 汽车之家
+*/10 5-23 * * * node /scripts/qczjspeed.js >> /scripts/logs/qczjspeed.log 2>&1
