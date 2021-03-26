@@ -176,7 +176,7 @@ if ($.isNode() && process.env.QCZJ_GetUserInfoHEADER) {
     ) {
         middleaddCoinBODY = process.env.QCZJ_addCoinBODY.split(COOKIES_SPLIT);
     } else {
-       // middleaddCoinBODY = process.env.QCZJ_addCoinBODY.split();
+        middleaddCoinBODY = process.env.QCZJ_addCoinBODY.split();
     }
     if (
         process.env.QCZJ_addCoin2BODY &&
@@ -184,7 +184,7 @@ if ($.isNode() && process.env.QCZJ_GetUserInfoHEADER) {
     ) {
         middleaddCoin2BODY = process.env.QCZJ_addCoin2BODY.split(COOKIES_SPLIT);
     } else {
-       // middleaddCoin2BODY = process.env.QCZJ_addCoin2BODY.split();
+        middleaddCoin2BODY = process.env.QCZJ_addCoin2BODY.split();
     }
 }
 if (COOKIE.GetUserInfoheaderVal) {
