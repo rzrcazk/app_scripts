@@ -6,7 +6,7 @@
 ## app
 
 ## 跃动族
-0,30 0-23 * * * node /scripts/yuedongzu.js >> /scripts/logs/yuedongzu.log 2>&1
+# 0,30 0-23 * * * node /scripts/yuedongzu.js >> /scripts/logs/yuedongzu.log 2>&1
 ## 芝麻视频
 0 * * * * node /scripts/zhima.js >> /scripts/logs/zhima.log 2>&1
 

@@ -58,7 +58,7 @@ https:\/\/bububao\.duoshoutuan\.com\/user\/* url script-request-header https://r
 http-response https:\/\/bububao\.duoshoutuan\.com\/user\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/bububao.js, requires-body=1,max-size=0, tag=步步宝获取TOKEN
 
 ############## surge
-#步步宝获取TOKEN
+#步步宝获取TOKENnode
 步步宝获取TOKEN = type=http-response,pattern=https:\/\/bububao\.duoshoutuan\.com\/user\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/bububao.js
 */
 GXRZ = '3.23 设置CASH为1000则在23.59分执行1秒的50元循环提现，以此类推'

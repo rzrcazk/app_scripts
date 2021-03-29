@@ -1,0 +1,8 @@
+hostname=api.sxsjyzm.com,
+############## 圈x
+
+#芝嫲视频获取body
+https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/zhima.js
+
+
+#https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
