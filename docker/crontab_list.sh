@@ -33,3 +33,6 @@
 
 ## 汽车之家
 */10 5-23 * * * node /scripts/qczjspeed.js >> /scripts/logs/qczjspeed.log 2>&1
+
+## 吾爱破解
+0 9,18 * * * node /scripts/52pojie.js >> /scripts/logs/52pojie.log 2>&1
