@@ -66,6 +66,7 @@ const CookieWA = 'htVD_2132_connect_is_bind=0; htVD_2132_lastact=1617166173%09fo
  [Mitm]
  hostname= www.52pojie.cn
  */
+const notify = $.isNode() ? require("./sendNotify") : ``;
 
 var $ = new Env('');
 var date = new Date()
