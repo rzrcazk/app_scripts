@@ -17,17 +17,17 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试
 [task_local]
 #部落农场
-1 0 * * * https://raw.githubusercontent.com/age174/-/main/blnc.js, tag=部落农场, img-url=https://ae01.alicdn.com/kf/U7bcabce8ea7644f18e3c84f65907e34bf.jpg, enabled=true
+1 0 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/blnc.js, tag=部落农场, img-url=https://ae01.alicdn.com/kf/U7bcabce8ea7644f18e3c84f65907e34bf.jpg, enabled=true
 
 [rewrite_local]
 #部落农场
-https://farming.blnc888.com/game.api url script-request-body https://raw.githubusercontent.com/age174/-/main/blnc.js
+https://farming.blnc888.com/game.api url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/blnc.js
 
 #loon
-https://farming.blnc888.com/game.api script-path=https://raw.githubusercontent.com/age174/-/main/blnc.js, requires-body=true, timeout=10, tag=部落农场
+https://farming.blnc888.com/game.api script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/blnc.js, requires-body=true, timeout=10, tag=部落农场
 
 #surge
-部落农场 = type=http-request,pattern=https://farming.blnc888.com/game.api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/blnc.js,script-update-interval=0
+部落农场 = type=http-request,pattern=https://farming.blnc888.com/game.api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/blnc.js,script-update-interval=0
 
 [MITM]
 hostname = farming.blnc888.com
