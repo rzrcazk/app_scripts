@@ -38,24 +38,24 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试
 [task_local]
 #钢镚赚乐步达人二合一
-0 9 * * * https://raw.githubusercontent.com/age174/-/main/ehy.js, tag=钢镚赚乐步达人二合一, img-url=https://ae01.alicdn.com/kf/Ua59aa6c4f1784bfc9a0f126a3d8b3fc6V.jpg, enabled=true
+0 9 * * * https://github.com/rzrcazk/app_scripts/blob/master/ehy.js, tag=钢镚赚乐步达人二合一, img-url=https://ae01.alicdn.com/kf/Ua59aa6c4f1784bfc9a0f126a3d8b3fc6V.jpg, enabled=true
 
 [rewrite_local]
 #乐步达人
-https://lebudaren.zhuangangbeng.com/zlgainintegral url script-request-body https://raw.githubusercontent.com/age174/-/main/ehy.js
+https://lebudaren.zhuangangbeng.com/zlgainintegral url script-request-body https://github.com/rzrcazk/app_scripts/blob/master/ehy.js
 #钢镚赚
-https://api.zhuangangbeng.com url script-request-body https://raw.githubusercontent.com/age174/-/main/ehy.js
+https://api.zhuangangbeng.com url script-request-body https://github.com/rzrcazk/app_scripts/blob/master/ehy.js
 
 #loon重写配置
 #乐步达人
-https://lebudaren.zhuangangbeng.com/zlgainintegral script-path=https://raw.githubusercontent.com/age174/-/main/ehy.js, requires-body=true, timeout=10, tag=乐步达人
+https://lebudaren.zhuangangbeng.com/zlgainintegral script-path=https://github.com/rzrcazk/app_scripts/blob/master/ehy.js, requires-body=true, timeout=10, tag=乐步达人
 #钢镚赚
-https://api.zhuangangbeng.com script-path=https://raw.githubusercontent.com/age174/-/main/ehy.js, requires-body=true, timeout=10, tag=钢镚赚
+https://api.zhuangangbeng.com script-path=https://github.com/rzrcazk/app_scripts/blob/master/ehy.js, requires-body=true, timeout=10, tag=钢镚赚
 
 #surge重写配置
-乐步达人 = type=http-request,pattern=https://lebudaren.zhuangangbeng.com/zlgainintegral,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/ehy.js,script-update-interval=0
+乐步达人 = type=http-request,pattern=https://lebudaren.zhuangangbeng.com/zlgainintegral,requires-body=1,max-size=0,script-path=https://github.com/rzrcazk/app_scripts/blob/master/ehy.js,script-update-interval=0
 
-钢镚赚 = type=http-request,pattern=https://api.zhuangangbeng.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/ehy.js,script-update-interval=0
+钢镚赚 = type=http-request,pattern=https://api.zhuangangbeng.com,requires-body=1,max-size=0,script-path=https://github.com/rzrcazk/app_scripts/blob/master/ehy.js,script-update-interval=0
 
 [MITM]
 hostname = lebudaren.zhuangangbeng.com,api.zhuangangbeng.com
