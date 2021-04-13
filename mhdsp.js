@@ -45,23 +45,23 @@ MHToken https://app.serenlife.com/tf/gfr4bv8XwJ
 圈X配置如下，其他软件自行测试
 [task_local]
 #陌嗨短视频
-15 10 * * * https://raw.githubusercontent.com/age174/-/main/mhdsp.js, tag=陌嗨短视频, img-url=https://raw.githubusercontent.com/usrnb/options/main/QuantumultX/icons/task/mhdsp.png, enabled=true
+15 10 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/mhdsp.js, tag=陌嗨短视频, img-url=https://raw.githubusercontent.com/usrnb/options/main/QuantumultX/icons/task/mhdsp.png, enabled=true
 
 
 [rewrite_local]
 #陌嗨短视频
-^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task url script-request-header https://raw.githubusercontent.com/age174/-/main/mhdsp.js
+^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/mhdsp.js
 
 
 
 #loon
-^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task script-path=https://raw.githubusercontent.com/age174/-/main/mhdsp.js, requires-header=true, timeout=10, tag=陌嗨短视频
+^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/mhdsp.js, requires-header=true, timeout=10, tag=陌嗨短视频
 
 
 
 #surge
 
-陌嗨短视频 = type=http-request,pattern=^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/mhdsp.js,script-update-interval=0
+陌嗨短视频 = type=http-request,pattern=^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/mhdsp.js,script-update-interval=0
 
 
 
