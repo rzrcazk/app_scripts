@@ -12,11 +12,6 @@ let BARK_PUSH = '';
 //注：此处设置github action用户填写到Settings-Secrets里面（Name输入BARK_SOUND , Value输入app提供的铃声名称，例如:birdsong）
 let BARK_SOUND = '';
 
-// =======================================企业微信机器人通知设置区域===========================================
-//此处填你企业微信机器人的 webhook(详见文档 https://work.weixin.qq.com/api/doc/90000/90136/91770)，例如：693a91f6-7xxx-4bc4-97a0-0ec2sifa5aaa
-//(环境变量名 QYWX_KEY)
-let QYWX_KEY = 'f0c9fc3b-ab9b-4fce-a53f-3b1acbcefe07';
-
 
 // =======================================telegram机器人通知设置区域===========================================
 //此处填你telegram bot 的Token，例如：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
@@ -59,10 +54,6 @@ if (process.env.TG_USER_ID) {
   TG_USER_ID = process.env.TG_USER_ID;
 }
 
-if (process.env.QYWX_KEY) {
-  QYWX_KEY = process.env.QYWX_KEY;
-}
-
 if (process.env.DD_BOT_TOKEN) {
   DD_BOT_TOKEN = process.env.DD_BOT_TOKEN;
   if (process.env.DD_BOT_SECRET) {
@@ -76,7 +67,6 @@ async function sendNotify(text, desp) {
   await BarkNotify(text, desp);
   await tgBotNotify(text, desp);
   await ddBotNotify(text, desp);
-  await qywxBotNotify(text, desp);
 }
 
 function serverNotify(text, desp) {
@@ -252,51 +242,6 @@ function ddBotNotify(text, desp) {
     }
   })
 }
-
-function qywxBotNotify(text, desp) {
-  return new Promise(resolve => {
-    const options = {
-      // `https://oapi.dingtalk.com/robot/send?access_token=${DD_BOT_TOKEN}`,
-      url: `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${QYWX_KEY}`,
-      json: {
-        msgtype: 'text',
-        text: {
-          content: ` ${text}\n\n${desp}`,
-        },
-      },
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    };
-    if (QYWX_KEY) {
-      $.post(options, (err, resp, data) => {
-        try {
-          if (err) {
-            console.log('企业微信发送通知消息失败！！\n');
-            console.log(err);
-          } else {
-            data = JSON.parse(data);
-            if (data.errcode === 0) {
-              console.log('企业微信发送通知消息完成。\n');
-            } else {
-              console.log(`${data.errmsg}\n`);
-            }
-          }
-        } catch (e) {
-          $.logErr(e, resp);
-        } finally {
-          resolve(data);
-        }
-      });
-    } else {
-      console.log('您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知\n');
-      resolve();
-    }
-  });
-}
-
-
-
 module.exports = {
   sendNotify,
   BarkNotify,

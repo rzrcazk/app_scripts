@@ -4,7 +4,7 @@ LABEL AUTHOR="none" \
 
 ENV DEFAULT_LIST_FILE=crontab_list.sh \
         CUSTOM_LIST_MERGE_TYPE=append \
-        REPO_URL=https://github.com/rzrcazk/app_scripts.git
+        REPO_URL=https://github.com/rzrcazk/JavaScript.git
 RUN set -ex \
         && apk update && apk upgrade\
         && apk add --no-cache tzdata  git  nodejs  moreutils  npm curl jq \

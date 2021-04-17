@@ -1,5 +1,5 @@
 {
-  "name": "yanjuan",
+  "name": "Sunert",
   "version": "1.0.0",
   "description": "",
   "main": "jingxi.js",
@@ -8,20 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sunert/Scripts.git"
+    "url": "git+https://github.com/Sunert/Scripts.git"
   },
-  "keywords": [
-    "快手"
-  ],
-  "author": "yanjuan",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rzrcazk/app_scripts/issues"
+    "url": "https://github.com/Sunert/Scripts/issues"
   },
-  "homepage": "https://github.com/rzrcazk/app_scripts#readme",
+  "homepage": "https://github.com/Sunert/Scripts#readme",
   "dependencies": {
     "crypto-js": "^4.0.0",
-    "download": "^8.0.0",
     "got": "^11.7.0",
     "http-server": "^0.12.3",
     "tough-cookie": "^4.0.0"
