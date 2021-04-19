@@ -2,7 +2,7 @@
   "name": "elecV2P 定时任务订阅",     // 订阅名称
   "author": "https://t.me/elecV2",    // 订阅制作者，可省略
   "date": "2021-02-26 23:32:04",      // 订阅生成时间，可省略
-  "surl": "https://raw.githubusercontent.com/elecV2/elecV2P/master/efss/tasksub.json",  // 原始订阅链接，可省略
+  "surl": "https://raw.githubusercontent.com/elecV2/elecV2P/master/efsssub.json",  // 原始订阅链接，可省略
   "desc": "订阅描述，可省略。该订阅仅可用于 elecV2P, 与其他软件并不兼容。",
   "list": [                           // 任务列表。任务格式参考上面的 task.list 部分
     {

@@ -2,8 +2,8 @@
 github地址 https: //github.com/rzrcazk
 TG频道地址 https: //t.me/juanshenscript
 TG交流群 https: //t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接 https: //cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
-圈X task订阅 https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen-gallery.json
+boxjs链接 https: //cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/juanshen.boxjs.json
+圈X task订阅 https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/juanshen-gallery.json
 
 转载请备注个名字，谢谢
 
@@ -334,12 +334,12 @@ async function all() {
 
 
                 K = `打卡页🚩`;
-                ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/task/getUserClockTaskInfo`
+                ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/getUserClockTaskInfo`
                 await task()
                 if ($.energy && $.energy.data.energyBalance >= 2000 && $.dky&& $.dky.data.clockTaskInfo[0].completeCount == 0) {
 
                     K = `打卡🚩`;
-                    ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/task/completeWxTask`
+                    ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/completeWxTask`
                     for (let i = 5; i < 7; i++) {
                         is = i
                         ddaydbody = `{"busType":${i},"uniqueId":"${ddaydckVal}"}`
@@ -457,10 +457,10 @@ async function all() {
 
                 K = `任务页🚩`;
                 ddaydbody = `{"uniqueId":"${ddaydckVal}"}`
-                ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/task/getMakeMoneyTaskInfo`
+                ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/getMakeMoneyTaskInfo`
                 await task()
 
-                ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/task/completeWxTask`
+                ddaydurl = `https://ddaydshuibaojk.tiantianzf.cn/completeWxTask`
                 if (xzrw && xzrw.completeCount == 0) {
                     K = `下载任务🚩`;
                     ddaydbody = `{"busType":10,"uniqueId":"${ddaydckVal}"}`

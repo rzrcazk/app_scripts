@@ -31,9 +31,9 @@
                     "desc": "0关闭 1开启,默认关闭"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js"
         }
     ]
 }

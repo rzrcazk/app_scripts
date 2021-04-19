@@ -3,4 +3,4 @@ hostname=*.fanli.com,
 ############## 圈x
 
 #返利网获取body
-https:\/\/.+\.fanli\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/flw.js
+https:\/\/.+\.fanli\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/flw.js

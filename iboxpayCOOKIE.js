@@ -5,7 +5,7 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 

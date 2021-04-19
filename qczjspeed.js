@@ -3,7 +3,7 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 ⚠️汽车之家极速版
@@ -61,37 +61,37 @@ CASHTIME  👉  QCZJ_CASHTIME
 hostname=mobile.app.autohome.com.cn,
 ############## 圈x
 #汽车之家极速版获取header
-https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js
+https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js
 
 #汽车之家极速版获取body
-https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js
+https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js
 
 #汽车之家极速版获取时段body
-http:\/\/mobile\.app\.autohome\.com\.cn\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js
+http:\/\/mobile\.app\.autohome\.com\.cn\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js
 
 
 
 ############## loon
 
 #汽车之家极速版获取header
-http-request (mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js, requires-header=true, tag=汽车之家极速版获取header
+http-request (mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js, requires-header=true, tag=汽车之家极速版获取header
 
 #汽车之家极速版获取body
-http-request (mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js,requires-body=true, tag=汽车之家极速版获取body
+http-request (mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js,requires-body=true, tag=汽车之家极速版获取body
 
 #汽车之家极速版获取时段body
-http-request http:\/\/mobile\.app\.autohome\.com\.cn\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js, requires-body=true, tag=汽车之家极速版获取时段body
+http-request http:\/\/mobile\.app\.autohome\.com\.cn\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js, requires-body=true, tag=汽车之家极速版获取时段body
 
 ############## surge
 
 #汽车之家极速版获取body
-汽车之家极速版获取body = type=http-request,pattern=(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*),requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js, script-update-interval=0
+汽车之家极速版获取body = type=http-request,pattern=(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*),requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js, script-update-interval=0
 
 #汽车之家极速版获取header
-汽车之家极速版获取header = type=http-request,pattern=(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*),script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js,
+汽车之家极速版获取header = type=http-request,pattern=(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*),script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js,
 
 #汽车之家极速版获取时段body
-汽车之家极速版获取时段body = type=http-request,pattern=http:\/\/mobile\.app\.autohome\.com\.cn\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js, script-update-interval=0
+汽车之家极速版获取时段body = type=http-request,pattern=http:\/\/mobile\.app\.autohome\.com\.cn\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/qczjspeed.js, script-update-interval=0
 
 
 
@@ -586,7 +586,7 @@ function coin(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
             let url = {
-                url: `https://mobile.app.autohome.com.cn/speedgrow_v1.0.0/taskcenter/init/coin`,
+                url: `https://mobile.app.autohome.com.cn/speedgrow_v1.0.0center/init/coin`,
                 headers: JSON.parse(GetUserInfoheaderVal),
                 body: activitybodyVal,
             }
@@ -609,7 +609,7 @@ function task(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
             let url = {
-                url: `https://mobile.app.autohome.com.cn/speedgrow_v1.0.0/taskcenter/init/task`,
+                url: `https://mobile.app.autohome.com.cn/speedgrow_v1.0.0center/init`,
                 headers: JSON.parse(GetUserInfoheaderVal),
                 body: taskbodyVal,
             }
@@ -638,7 +638,7 @@ function activity(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
             let url = {
-                url: `https://mobile.app.autohome.com.cn/speedgrow_v1.0.0/taskcenter/init/activity`,
+                url: `https://mobile.app.autohome.com.cn/speedgrow_v1.0.0center/init/activity`,
                 headers: JSON.parse(GetUserInfoheaderVal),
                 body: activitybodyVal,
             }

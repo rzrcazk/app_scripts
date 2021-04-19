@@ -2,7 +2,7 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/juanshen.boxjs.json
 转载请备注个名字，谢谢
 
 ⚠️书旗小说     手机号账号数据共通， 部分任务可叠加，此脚本包含2个app的所有任务（无阅读挑战赛）共0.8-1元
@@ -70,53 +70,53 @@ hostname =render.shuqireader.com,ocean.shuqireader.com,jcollection.shuqireader.c
 #书旗小说获取header
 
 #用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-https:\/\/ocean\.shuqireader\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+https:\/\/ocean\.shuqireader\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 #极速版书城
-http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 
 #书旗小说获取body
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 极速版视频 极速版签到视频 极速版阅读 极速版签到 极速版分享 极速版书城
-https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 #收益 任务 极速版任务
-https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 #时长
-https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 
 ############## loon
 
 #书旗小说获取header
 
 #用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-header script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js, requires-header=true, tag=书旗小说获取header
+http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-header script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js, requires-header=true, tag=书旗小说获取header
 #极速版书城
-http-request http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js, requires-header=true, tag=书旗小说获取header
+http-request http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js, requires-header=true, tag=书旗小说获取header
 
 #书旗小说获取body
 
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 极速版视频 极速版签到视频 极速版阅读 极速版签到 极速版分享 极速版书城
-http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
+http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
 #收益 任务 极速版任务
-http-request https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
+http-request https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
 #时长
-http-request https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
+http-request https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
 
 ############## surge
 
 #书旗小说获取header
 
 #用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 #极速版书城
-书旗小说获取header = type=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+书旗小说获取header = type=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 
 #书旗小说获取body
 
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 视频 极速版视频 极速版签到视频 极速版阅读 极速版签到  极速版分享 极速版书城
-书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 #收益 任务 极速版任务
-书旗小说获取header = type=https:\/\/render\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+书旗小说获取header = type=https:\/\/render\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 #时长
-书旗小说获取header = type=https:\/\/jcollection\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js
+书旗小说获取header = type=https:\/\/jcollection\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/shuqi.js
 
 
 */
@@ -2242,7 +2242,7 @@ function share(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
             let url = {
-                url: `https://ocean.shuqireader.com/api/activity/v1/task/${taskfx}`,
+                url: `https://ocean.shuqireader.com/api/activity/v1/${taskfx}`,
                 headers: {
                     'Content-Type': `application/x-www-form-urlencoded`,
                     'Host': `ocean.shuqireader.com`,
@@ -2751,7 +2751,7 @@ function jsshare(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
             let url = {
-                url: `https://ocean.shuqireader.com/api/activity/v1/task/${taskfx}`,
+                url: `https://ocean.shuqireader.com/api/activity/v1/${taskfx}`,
                 headers: {
                     'Content-Type': `application/x-www-form-urlencoded`,
                     'Host': `ocean.shuqireader.com`,
@@ -2815,7 +2815,7 @@ function jsbooklj(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
             let url = {
-                url: `https://ocean.shuqireader.com/api/activity/v1/task/convert`,
+                url: `https://ocean.shuqireader.com/api/activity/v1/convert`,
                 headers: {
                     'Content-Type': `application/x-www-form-urlencoded`,
                     'Host': `ocean.shuqireader.com`,

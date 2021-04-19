@@ -1,3 +1,3 @@
 hostname = event.jiandantianqi.com
 //简单天气获取event body  吃饭 竞猜
-https:\/\/event\.jiandantianqi\.com\/ url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/jdtq.js
+https:\/\/event\.jiandantianqi\.com\/ url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/jdtq.js
