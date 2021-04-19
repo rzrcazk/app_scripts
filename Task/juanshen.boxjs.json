@@ -2,7 +2,7 @@
     "id": "juanshen.app.sub",
     "name": "juanshen 脚本订阅",
     "author": "@juanshen",
-    "icon": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/juanshen.png",
+    "icon": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/juanshen.png",
     "repo": "https://github.com/rzrcazk",
     "apps": [{
             "id": "qczjspeed",
@@ -38,9 +38,9 @@
                     "desc": "默认0点后提现，可设置 0 ~ 23  "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/qczjspeed.js",
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js",
             "icons": ["https://raw.githubusercontent.com/Orz-3/task/master/qczj.png", "https://raw.githubusercontent.com/Orz-3/task/master/qczj.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/qczjspeed.js"
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qczjspeed.js"
         },
         {
             "id": "xiaole",
@@ -62,9 +62,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/xiaole.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/xiaole.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/xiaole.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/xiaole.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/xiaole.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/xiaole.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/xiaole.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/xiaole.js"
         },
         {
             "id": "iboxpay",
@@ -114,9 +114,9 @@
                     "desc": "输入短信验证码，默认为0，不启动获取token功能"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/iboxpay.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/iboxpay.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/iboxpay.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/iboxpay.js"
         },
         {
             "id": "flw",
@@ -152,9 +152,9 @@
                     "desc": "默认0，可设置设置 0 5 50 100"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/flw.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/flw.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/flw.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/flw.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/flw.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/flw.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/flw.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/flw.js"
         },
         {
             "id": "githubAC",
@@ -183,9 +183,9 @@
                     "desc": "可设置0 不启动、js序号数 指定哪个js任务随githubAC运行而启动、 888 全部js启动"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/githubAC.js",
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/githubAC.js",
             "icons": ["https://github.githubassets.com/images/modules/site/home/astro-mona.jpg", "https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/githubAC.js"
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/githubAC.js"
         },
         {
             "id": "zhima",
@@ -214,9 +214,9 @@
                     "desc": "0不提现，可设置 0 0.3 0.5 1 5 10 30 50 100 等"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/zhima.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/zhima.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/zhima.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/zhima.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/zhima.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/zhima.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/zhima.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/zhima.js"
         },
         {
             "id": "QQread",
@@ -238,9 +238,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.js"
         },
         {
             "id": "bububao",
@@ -269,9 +269,9 @@
                     "desc": "0不提现，可设置 0 0.3 50 100 200 888  设置888则由上至下循环提现，设置CASH为3000，则在23.59分执行3秒的循环-以此类推，且在0点后执行1次50元提现，请提前手动运行或者设置好定时"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.js"
         },
         {
             "id": "yuedongzu",
@@ -300,9 +300,9 @@
                     "desc": "0不提现，可设置 0 0.3 1 5 50 100 200 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yuedongzu.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yuedongzu.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yuedongzu.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yuedongzu.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yuedongzu.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yuedongzu.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yuedongzu.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yuedongzu.js"
         },
         {
             "id": "qmyd",
@@ -331,9 +331,9 @@
                     "desc": "0不提现，可设置 0 0.3 1 10 20 30 100 200 300 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/qmyd.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/qmyd.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/qmyd.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/qmyd.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qmyd.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qmyd.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qmyd.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/qmyd.js"
         }, {
             "id": "shuqi",
             "name": "书旗小说APP",
@@ -389,9 +389,9 @@
                     "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/shuqi.js"
         },{
             "id": "jdtq",
             "name": "简单天气APP",
@@ -447,9 +447,9 @@
                     "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/jdtq.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/jdtq.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/jdtq.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/jdtq.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/jdtq.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/jdtq.js"
         },
         {
             "id": "ddayd",
@@ -465,9 +465,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/ddayd.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/ddayd.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/ddayd.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/ddayd.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/ddayd.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/ddayd.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/ddayd.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/ddayd.js"
         },
         {
             "id": "yqnb",
@@ -517,9 +517,9 @@
                     "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.png", "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.js"
         }
     ]
 }

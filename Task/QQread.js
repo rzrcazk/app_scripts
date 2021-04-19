@@ -2,7 +2,7 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 
@@ -30,15 +30,15 @@ hostname=iostgw6.reader.qq.com,newios.reader.qq.com,
 
 ############## 圈x
 #QQ阅读APP获取url
-https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.js
+https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.js
 
 ############## loon
 #QQ阅读APP获取url
-http-request https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.js, requires-header=true, tag=QQ阅读APP获取url
+http-request https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.js, requires-header=true, tag=QQ阅读APP获取url
 
 ############## surge
 #QQ阅读APP获取url
-QQ阅读APP获取url = type=http-request,pattern=https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*),script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/QQread.js
+QQ阅读APP获取url = type=http-request,pattern=https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*),script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/QQread.js
 
 */
 const $ = Env("QQ阅读APP");

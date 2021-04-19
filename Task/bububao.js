@@ -2,7 +2,7 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 
@@ -54,15 +54,15 @@ hostname=bububao.duoshoutuan.com,
 
 ############## 圈x
 #步步宝获取TOKEN
-https:\/\/bububao\.duoshoutuan\.com\/user\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.js
+https:\/\/bububao\.duoshoutuan\.com\/user\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.js
 
 ############## loon
 #步步宝获取TOKEN
-http-response https:\/\/bububao\.duoshoutuan\.com\/user\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.js, requires-body=1,max-size=0, tag=步步宝获取TOKEN
+http-response https:\/\/bububao\.duoshoutuan\.com\/user\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.js, requires-body=1,max-size=0, tag=步步宝获取TOKEN
 
 ############## surge
 #步步宝获取TOKEN
-步步宝获取TOKEN = type=http-response,pattern=https:\/\/bububao\.duoshoutuan\.com\/user\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/bububao.js
+步步宝获取TOKEN = type=http-response,pattern=https:\/\/bububao\.duoshoutuan\.com\/user\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/bububao.js
 */
 GXRZ = '3.29 优化50提现 设置CASH为3000，则在23.59分执行3秒的循环-以此类推，且在0点后执行1次提现，请提前手动运行或者设置好定时'
 const $ = Env("步步宝");

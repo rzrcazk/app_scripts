@@ -3,6 +3,15 @@
 # 每3天的23:50分清理一次日志
 50 23 */3 * * rm -rf /scripts/logs/*.log
 
+#
+#秒   是   0-59    , - * /
+#分   是   0-59    , - * /
+#时   是   0-23    , - * /
+#日   是   1-31    , - * ? / L W C
+#月   是   1-12 或 JAN-DEC  , - * /
+#周   是   1-7 或 SUN-SAT   , - * ? / L C #
+#年   否   空 或 1970-2099   , - * /
+
 ## app
 
 ## 芝麻视频
@@ -31,10 +40,5 @@
 20 5 10 * * * node /scripts/Task/youth_gain.js >> /scripts/logs/youth_gain.log 2>&1
 
 
-
-
-
-
-
 ## 吾爱破解
-0 9,18 * * * node /scripts/52pojie.js >> /scripts/logs/52pojie.log 2>&1
+0 9,18 * * * node /scripts/52pojie.js >> /scripts/Task/logs/52pojie.log 2>&1

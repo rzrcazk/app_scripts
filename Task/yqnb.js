@@ -2,8 +2,8 @@
 github地址 https://github.com/rzrcazk
 TG频道地址 https://t.me/juanshenscript
 TG交流群 https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接 https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/juanshen.boxjs.json
-圈X task订阅 https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/juanshen-gallery.json
+boxjs链接 https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen.boxjs.json
+圈X task订阅 https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/juanshen-gallery.json
 
 转载请备注个名字，谢谢
 
@@ -35,15 +35,15 @@ hostname =nb.ioxing.com,
 
 //////////////////////////// 圈x
 //易趣牛帮获取header body  
-http:\/\/nb\.ioxing\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.js
+http:\/\/nb\.ioxing\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.js
 
 //////////////////////////// loon
 //易趣牛帮获取header body  
-http-request http:\/\/nb\.ioxing\.com\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.js, requires-body=1,max-size=0, tag=易趣牛帮获取header body
+http-request http:\/\/nb\.ioxing\.com\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.js, requires-body=1,max-size=0, tag=易趣牛帮获取header body
 
 //////////////////////////// surge
 //易趣牛帮获取header body  
-易趣牛帮获取header body = type=http-request,pattern=http:\/\/nb\.ioxing\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.js
+易趣牛帮获取header body = type=http-request,pattern=http:\/\/nb\.ioxing\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.js
 
 
 

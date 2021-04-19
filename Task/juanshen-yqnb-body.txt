@@ -1,3 +1,3 @@
 hostname =nb.ioxing.com,
 //易趣牛帮 获取header body
-http:\/\/nb\.ioxing\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/yqnb.js
+http:\/\/nb\.ioxing\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@master/Task/yqnb.js
