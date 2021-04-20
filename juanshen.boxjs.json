@@ -372,7 +372,7 @@
             "id": "fqkk",
             "name": "番茄看看",
             "keys": ["fqkk"],
-            "author": "@feizao",
+            "author": "@juanshen",
             "settings": [{
                 "id": "fqkkCkMove",
                 "val": "",
@@ -413,7 +413,7 @@
             "id": "ysm",
             "name": "云扫码",
             "keys": ["ysm"],
-            "author": "@feizao",
+            "author": "@juanshen",
             "descs_html": [
                 "优化后的脚本存储ck的数据结构跟原先的不同，需要转换下或重新抓数据",
                 "转换步骤：1、NE工具（QX、Loon、Surge）中进入脚本编辑界面，手动修改变量 moveData=1 后直接执行一次即可",
