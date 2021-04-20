@@ -2,14 +2,14 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/juanshen.boxjs.json
 转载请备注个名字，谢谢
 
 ⚠️书旗小说     手机号账号数据共通， 部分任务可叠加，此脚本包含2个app的所有任务（无阅读挑战赛）共0.8-1元
-书旗普通版 支持多平台账号以及手机号登录     
-点击  https://apps.apple.com/cn/app/id733689509 下载APP 或者Appstore 搜索书旗小说 
+书旗普通版 支持多平台账号以及手机号登录
+点击  https://apps.apple.com/cn/app/id733689509 下载APP 或者Appstore 搜索书旗小说
 
-书旗极速版 支持手机号登录     
+书旗极速版 支持手机号登录
 点击  https://apps.apple.com/cn/app/id1540723488 下载APP 或者Appstore 搜索书旗小说极速版
 
 3.8  制作
@@ -22,9 +22,11 @@ boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juansh
 3.15 修复收益获取ck显示
 3.18 独立COOKIE增加boxjs复制会话模式
 3.193.19 修复ac报错
+4.6.11 单刷时长请设置SC为1，增加通知以及推送控制
+4.6.19 精确时长ck判定，10秒以上才获取
 
-⚠️ 时间设置    7 0-23 * * *    每小时 1次就行 
-⚠️一共2个软件  普通版15条 极速版11条  共      26个ck  👉 26条 Secrets 
+⚠️ 时间设置    7 0-23 * * *    每小时 1次就行
+⚠️一共2个软件  普通版15条 极速版11条  共      26个ck  👉 26条 Secrets
 有多少ck就运行多少任务   shuqiuserurlVal 用户名url 👉 这个ck必须获取
 多账号换行
 
@@ -39,7 +41,7 @@ boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juansh
     shuqiscbodyVal👉 时长body      点进一本书， 看个30秒，时长有效期一天，提现再获取
     shuqiydbodyVal👉 阅读body      点进一本书，右上角转一圈，如没有圈圈，建议放弃，或者用4.32版本
     shuqiqdbodyVal👉 签到body      点击福利 每日签到并成功签到
-    shuqirwbodyVal👉 任务body      点击福利 
+    shuqirwbodyVal👉 任务body      点击福利
     shuqifxbodyVal👉  分享body     点击福利 邀请书友，分享或者假分享
     shuqisprwurlVal👉  视频任务url  点击福利
     shuqijlbodyVal👉  获取奖励body   点击福利
@@ -47,86 +49,87 @@ boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juansh
     shuqicjyurlVal👉  获取抽奖页url  点击福利转转转
     shuqicjcsbodyVal👉抽奖次数body   点击福利转转转 点击看视频抽奖
     shuqicjbodyVal👉  获取抽奖body   点击福利转转转 点击看视频抽奖
-    
+
     shuqijsspbodyVal👉 极速版视频body   极速版点击福利 赚金币 看视频
     shuqijsydurlVal👉  极速版阅读url    极速版点进一本书 右上角转一圈，如没有圈圈，建议放弃，
     shuqijsydbodyVal👉 极速版阅读body   极速版点进一本书 右上角转一圈，如没有圈圈，建议放弃，
     shuqijsqdbodyVal👉 极速版签到body    极速版点击福利 赚金币 每日签到  成功签到
-    shuqijsqdspyurlVal👉极速版签到视频页url  极速版点击福利 赚金币 每日签到  
-    shuqijsqdspbodyVal👉极速版签到视频url    极速版点击福利 赚金币 每日签到 成功第二次签到 
+    shuqijsqdspyurlVal👉极速版签到视频页url  极速版点击福利 赚金币 每日签到
+    shuqijsqdspbodyVal👉极速版签到视频url    极速版点击福利 赚金币 每日签到 成功第二次签到
     shuqijsrwbodyVal👉 极速版任务body        极速版点击福利 赚金币
     shuqijsfxbodyVal👉  极速版分享body       极速版点击福利 赚金币 邀请书友，分享或者假分享
     shuqijsbookurlVal👉 极速版书城url        极速版点击福利 赚金币 浏览书城
     shuqijsbookbodyVal👉 极速版书城bodyy     极速版点击福利 赚金币 浏览书城
     shuqijssprwurlVal👉  极速版视频任务url   极速版点击福利 赚金币
-	
-⚠️主机名以及header重写👇     header重写 和 body重写不可同时启用
-hostname =render.shuqireader.com,ocean.shuqireader.com,jcollection.shuqireader.com,activity-center-web.shuqireader.com, 
 
-############## 圈x 
+⚠️主机名以及header重写👇     header重写 和 body重写不可同时启用
+hostname =render.shuqireader.com,ocean.shuqireader.com,jcollection.shuqireader.com,activity-center-web.shuqireader.com,
+
+############## 圈x
 
 #书旗小说获取header
 
 #用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-https:\/\/ocean\.shuqireader\.com\/* url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+https:\/\/ocean\.shuqireader\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 #极速版书城
-http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 
 #书旗小说获取body
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 极速版视频 极速版签到视频 极速版阅读 极速版签到 极速版分享 极速版书城
-https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 #收益 任务 极速版任务
-https:\/\/render\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 #时长
-https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 
 ############## loon
 
 #书旗小说获取header
 
 #用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-header script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js, requires-header=true, tag=书旗小说获取header
+http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-header script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js, requires-header=true, tag=书旗小说获取header
 #极速版书城
-http-request http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js, requires-header=true, tag=书旗小说获取header
+http-request http:\/\/activity-center-web\.shuqireader\.com\/* url script-request-header script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js, requires-header=true, tag=书旗小说获取header
 
 #书旗小说获取body
 
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 极速版视频 极速版签到视频 极速版阅读 极速版签到 极速版分享 极速版书城
-http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
+http-request https:\/\/ocean\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
 #收益 任务 极速版任务
-http-request https:\/\/render\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
+http-request https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
 #时长
-http-request https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
+http-request https:\/\/jcollection\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js,requires-body=1,max-size=0, tag=书旗小说获取body
 
 ############## surge
 
 #书旗小说获取header
 
 #用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 #极速版书城
-书旗小说获取header = type=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+书旗小说获取header = type=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 
 #书旗小说获取body
 
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 视频 极速版视频 极速版签到视频 极速版阅读 极速版签到  极速版分享 极速版书城
-书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 #收益 任务 极速版任务
-书旗小说获取header = type=https:\/\/render\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+书旗小说获取header = type=https:\/\/render\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 #时长
-书旗小说获取header = type=https:\/\/jcollection\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/shuqi.js
+书旗小说获取header = type=https:\/\/jcollection\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/shuqi.js
 
 
 */
-GXRZ = '3.19 修复ac报错'
+GXRZ = '4.6.19 精确时长ck判定，10秒以上才获取'
 const $ = Env("书旗小说");
 $.idx = ($.idx = ($.getval('shuqiSuffix') || '1') - 1) > 0 ? ($.idx + 1 + '') : ''; // 账号扩展字符
 const notify = $.isNode() ? require("./sendNotify") : ``;
 const COOKIE = $.isNode() ? require("./shuqiCOOKIE") : ``;
 const logs = 0; // 0为关闭日志，1为开启
-const notifyttt = 1 // 0为关闭外部推送，1为12 23 点外部推送
-const notifyInterval = 2; // 0为关闭通知，1为所有通知，2为12 23 点通知  ， 3为 6 12 18 23 点通知 
-$.message = '', COOKIES_SPLIT = '', CASH = '', XH = 0, ddtime = '';
+notifyttt = 1; // 0为关闭外部推送，1为12 23 点外部推送
+notifyInterval = 2; // 0为关闭通知，1为所有通知，2为12 23 点通知  ， 3为 6 12 18 23 点通知
+Minutes = 10; // 通知 默认控制在0-10分内
+$.message = '', COOKIES_SPLIT = '', CASH = '', XH = 0, SC = 0, ddtime = '';
 CZ = 10
 Length = 0
 let shuqiuserurlArr = [];
@@ -224,11 +227,17 @@ if ($.isNode() && COOKIE.shuqiuserurlVal && COOKIE.shuqiuserurlVal != '') {
 }
 
 if ($.isNode() && process.env.SQ_shuqiuserURL) {
+
+    SC = process.env.SQ_SC || "0";
+    notifyttt = process.env.SQ_notifyttt || "1";
+    notifyInterval = process.env.SQ_notifyInterval || "2";
+    Minutes = process.env.SQ_Minutes || "10";
+
     COOKIES_SPLIT = process.env.COOKIES_SPLIT || "\n";
     console.log(
         `============ cookies分隔符为：${JSON.stringify(
-      COOKIES_SPLIT
-    )} =============\n`
+            COOKIES_SPLIT
+        )} =============\n`
     );;
     if (
         process.env.SQ_shuqiuserURL &&
@@ -498,6 +507,12 @@ if (COOKIE && COOKIE.shuqiuserurlVal) {
 }
 if (COOKIE.datas && COOKIE.datas[0].val != '') {
 
+
+    notifyttt = (COOKIE.settings.find(item => item.id === `shuqinotifyttt`)).val || '1';
+    notifyInterval = (COOKIE.settings.find(item => item.id === `shuqinotifyInterval`)).val || '2';
+    Minutes = (COOKIE.settings.find(item => item.id === `shuqiMinutes`)).val || '10';
+    SC = (COOKIE.settings.find(item => item.id === `shuqiSC`)).val || '0';
+
     shuqiCount = COOKIE.settings.find(item => item.id === `shuqiCount`);
     Length = shuqiCount.val
 }
@@ -506,7 +521,7 @@ if (COOKIE.shuqiuserurl) {
     COOKIEstringify = JSON.stringify(COOKIE);
     Length = COOKIEstringify.match(/getBindinfo/g).length
 }
-if (!COOKIE.datas && !COOKIE.shuqiuserurlVal&& !COOKIE.shuqiuserurl) {
+if (!COOKIE.datas && !COOKIE.shuqiuserurlVal && !COOKIE.shuqiuserurl) {
     if ($.isNode()) {
         Object.keys(middleshuqiuserURL).forEach((item) => {
             if (middleshuqiuserURL[item]) {
@@ -668,6 +683,18 @@ if (!COOKIE.datas && !COOKIE.shuqiuserurlVal&& !COOKIE.shuqiuserurl) {
         // 根据boxjs中设置的额外账号数，添加存在的账号数据进行任务处理
         if ("shuqiXH") {
             XH = $.getval("shuqiXH") || '0';
+        }
+        if ("shuqinotifyttt") {
+            notifyttt = $.getval("shuqinotifyttt") || '1';
+        }
+        if ("shuqinotifyInterval") {
+            notifyInterval = $.getval("shuqinotifyInterval") || '2';
+        }
+        if ("shuqiMinutes") {
+            Minutes = $.getval("shuqiMinutes") || '10';
+        }
+        if ("shuqiSC") {
+            SC = $.getval("shuqiSC") || '0';
         }
         let shuqiCount = ($.getval('shuqiCount') || '1') - 0;
         for (let i = 2; i <= shuqiCount; i++) {
@@ -1046,7 +1073,9 @@ function GetCookie() {
     //获取时长
     if ($request && $request.url.indexOf("reading") >= 0 && $request.url.indexOf("upload") >= 0 && $request.body.indexOf("_public=skinId") >= 0) {
         const shuqiscbodyVal = $request.body;
-        if (shuqiscbodyVal) {
+        sqsc = shuqiscbodyVal.split('readingLen%22%3A')[1].split('%7D')[0]
+
+        if (shuqiscbodyVal&&sqsc>=10) {
             if (XH == 1) {
                 cookie()
 
@@ -1063,18 +1092,18 @@ function GetCookie() {
                     } else {
                         $.setdata(shuqiscbodyVal, "shuqiscbody" + $.idx);
                         $.log(
-                            `[${$.name + $.idx}] 获取时长shuqiscbodyVal✅: 成功,shuqiscbodyVal: ${shuqiscbodyVal}`
+                            `[${$.name + $.idx}] 获取${sqsc}秒时长shuqiscbodyVal✅: 成功,shuqiscbodyVal: ${shuqiscbodyVal}`
                         );
-                        $.msg($.name + $.idx, `获取时长shuqiscbodyVal: 成功🎉`, ``);
+                        $.msg($.name + $.idx, `获取${sqsc}秒时长shuqiscbodyVal: 成功🎉`, ``);
                         $.done();
                     };
                 }
             } else {
                 $.setdata(shuqiscbodyVal, "shuqiscbody" + $.idx);
                 $.log(
-                    `[${$.name + $.idx}] 获取时长shuqiscbodyVal✅: 成功,shuqiscbodyVal: ${shuqiscbodyVal}`
+                    `[${$.name + $.idx}] 获取${sqsc}秒时长shuqiscbodyVal✅: 成功,shuqiscbodyVal: ${shuqiscbodyVal}`
                 );
-                $.msg($.name + $.idx, `获取时长shuqiscbodyVal: 成功🎉`, ``);
+                $.msg($.name + $.idx, `获取${sqsc}秒时长shuqiscbodyVal: 成功🎉`, ``);
                 $.done();
             };
         }
@@ -1598,10 +1627,10 @@ function GetCookie() {
 }
 console.log(
     `================== 脚本执行 - 北京时间(UTC+8)：${new Date(
-    new Date().getTime() +
-    new Date().getTimezoneOffset() * 60 * 1000 +
-    8 * 60 * 60 * 1000
-  ).toLocaleString()} =====================\n`
+        new Date().getTime() +
+        new Date().getTimezoneOffset() * 60 * 1000 +
+        8 * 60 * 60 * 1000
+    ).toLocaleString()} =====================\n`
 );
 console.log(
     `============ 共 ${Length} 个${$.name}账号=============\n`
@@ -1698,6 +1727,12 @@ function decodeUnicode(str) {
     str = str.replace(/\\/g, "%");
     return unescape(str);
 }
+//随机延迟
+function RT(X, Y) {
+    do rt = Math.floor(Math.random() * Y);
+    while (rt < X)
+    return rt;
+}
 let isGetCookie = typeof $request !== 'undefined'
 if (isGetCookie) {
     GetCookie()
@@ -1707,7 +1742,7 @@ if (isGetCookie) {
         await all();
         await msgShow();
     })()
-    .catch((e) => {
+        .catch((e) => {
             $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
         })
         .finally(() => {
@@ -1854,7 +1889,7 @@ async function all() {
             shuqijsbookbodyVal = COOKIE[Object.keys(COOKIE)[iv + 25]];
             shuqijssprwurlVal = COOKIE[Object.keys(COOKIE)[iv + 26]];
         }
-        if (!COOKIE.datas && !COOKIE.shuqiuserurlVal&& !COOKIE.shuqiuserurl) {
+        if (!COOKIE.datas && !COOKIE.shuqiuserurlVal && !COOKIE.shuqiuserurl) {
             shuqiuserurlVal = shuqiuserurlArr[i];
             shuqisyurlVal = shuqisyurlArr[i];
             shuqisybodyVal = shuqisybodyArr[i];
@@ -1895,26 +1930,30 @@ async function all() {
             await coin() //用户收益
         }
         await readlist(); //阅读时长
-        if (shuqirwbodyVal && shuqirwbodyVal != '') {
-            await resource() //任务列表
-        }
-        if (shuqisprwurlVal && shuqisprwurlVal != '') {
-            await videolist(); //视频任务
-        }
-        if (shuqicjyurlVal && shuqicjyurlVal != '') {
-            await lotteryinfo(); //抽奖页面
-        }
-        if (shuqijsrwbodyVal && shuqijsrwbodyVal != '') {
-            await jsresource() //极速版任务列表
-        }
-        if (shuqijssprwurlVal && shuqijssprwurlVal != '') {
-            await jsvideolist() //极速版视频任务
-        }
-        if (shuqijsqdspyurlVal && shuqijsqdspyurlVal != '') {
-            await jsqdvideolist(); //极速版签到视频任务
-        }
-        if (shuqijlbodyVal && shuqijlbodyVal != '') {
-            await bubble(); //奖励页面
+
+        if (SC == 0) {
+            if (shuqirwbodyVal && shuqirwbodyVal != '') {
+                await resource() //任务列表
+            }
+            if (shuqisprwurlVal && shuqisprwurlVal != '') {
+                await videolist(); //视频任务
+            }
+            if (shuqicjyurlVal && shuqicjyurlVal != '') {
+                await lotteryinfo(); //抽奖页面
+            }
+            if (shuqijsrwbodyVal && shuqijsrwbodyVal != '') {
+                await jsresource() //极速版任务列表
+            }
+            if (shuqijssprwurlVal && shuqijssprwurlVal != '') {
+                await jsvideolist() //极速版视频任务
+            }
+            if (shuqijsqdspyurlVal && shuqijsqdspyurlVal != '') {
+                await jsqdvideolist(); //极速版签到视频任务
+            }
+            if (shuqijlbodyVal && shuqijlbodyVal != '') {
+                await bubble(); //奖励页面
+            }
+
         }
         console.log(`${GXRZ}\n`);
         $.message += `${GXRZ}\n`
@@ -1923,10 +1962,12 @@ async function all() {
 //通知
 function msgShow() {
     return new Promise(async resolve => {
+
+
         if (notifyInterval != 1) {
             console.log($.name + '\n' + $.message);
         }
-        if (notifyInterval == 1) {
+        if (notifyInterval == 1 ) {
             $.msg($.name, ``, $.message);
         }
         if (notifyInterval == 2 && (nowTimes.getHours() === 12 || nowTimes.getHours() === 23) && (nowTimes.getMinutes() >= 0 && nowTimes.getMinutes() <= 10)) {
@@ -2342,12 +2383,22 @@ function readlist(timeout = 0) {
                         if (shuqiscbodyVal && shuqiscbodyVal != '') {
                             timestamp = shuqiscbodyVal.split('timestamp=')[1].split('&user_id')[0] * 1000
                             sqsc = shuqiscbodyVal.split('readingLen%22%3A')[1].split('%7D')[0]
-                            if (timestamp >= daytime() && $.readlist.data.readTime < 180) {
+                            if (timestamp >= daytime() && $.readlist.data.readTime < 10) {
+                                DD = RT(1000, 10000)
+                                console.log(`随机延迟${DD/1000}秒`)
+                                await $.wait(DD)
                                 await upload() //上传时长
-                                await $.wait(10000)
+                                DD = RT(1000, 10000)
+                                console.log(`随机延迟${DD/1000}秒`)
+                                await $.wait(DD)
                                 await upload() //上传时长
-                                await $.wait(10000)
+                                DD = RT(1000, 10000)
+                                console.log(`随机延迟${DD/1000}秒`)
+                                await $.wait(DD)
                                 await upload() //上传时长
+                            } else if (timestamp >= daytime()) {
+                                console.log(`上传时长：今日时长已达到10分钟\n`);
+                                $.message += `【上传时长】：今日时长已达到10分钟\n`;
                             } else {
                                 console.log(`上传时长：请获取今日时长CK\n`);
                                 $.message += `【上传时长】：请获取今日时长CK\n`;
