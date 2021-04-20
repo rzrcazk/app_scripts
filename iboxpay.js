@@ -2,11 +2,11 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/juanshen.boxjs.json
 转载请备注个名字，谢谢
 
 ⚠️笑谱
-脚本运行一次   
+脚本运行一次
 则运行6次视频 1次金蛋 1次直播（直播默认关闭，且在8点到23点有效）
 
 1.15 调整金蛋延迟为60秒
@@ -48,16 +48,16 @@ boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juansh
 3.18 修复视频错误，修复小错误，新增COOKIE方式一 boxjs复制会话
 3.19 修复ac运行报错
 3.20 视频ck有效期目前未知，增加失效判定，直播上限为5000，已适配
+4.15 视频ck有效期预计15天，直播上限为3000，已适配
 
 
-
-⚠️一共1个位置 3个ck  👉 7条 Secrets 
+⚠️一共1个位置 3个ck  👉 7条 Secrets
 多账号换行
 
 
-⚠️方法一
+⚠️方法一（永不掉ck）
 
-第一步 进入笑谱 选择手机号登陆，输入手机号，点击获取验证码
+第一步 进入笑谱 选择手机号登陆，输入手机号，点击获取验证码（⚠️不要登录，如果想登录，请重新获取验证码或者用微信登录）
 
 第二步 ⚠️进入boxjs（其他平台则输入对应环境变量）  输入当前账号序号   输入手机号  和  验证码
 
@@ -71,7 +71,7 @@ boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juansh
 
 第一步 添加  hostname=veishop.iboxpay.com,
 
-第二步 ⚠️添加笑谱获取更新TOKEN重写  
+第二步 ⚠️添加笑谱获取更新TOKEN重写
 
 登录笑谱(在登录状态就退出，重新登录)  获取更新TOKEN
 
@@ -91,9 +91,9 @@ iboxpayvideobodyVal👉 XP_iboxpayvideoBODY
  LIVE  👉  XP_live
 
 设置提现金额 可设置 0 1 15 30 50 100 888 默认0关闭  设置888由上至下循环提现
-CASH  👉  XP_CASH 
+CASH  👉  XP_CASH
 
-设置手机号 
+设置手机号
  phone  👉  XP_phone
 
 设置验证码   默认0关闭获取token功能
@@ -108,34 +108,34 @@ hostname=veishop.iboxpay.com
 ############## 圈x
 
 #笑谱获取更新TOKEN
-https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/* url script-response-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js
+https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/* url script-response-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js
 
 #笑谱获取视频ck
-https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js
+https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js
 
 ############## loon
-http-response https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js, requires-body=1,max-size=0, tag=笑普token
+http-response https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js, requires-body=1,max-size=0, tag=笑普token
 
-http-requires https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js, requires-body=1,max-size=0, tag=笑谱获取视频ck
+http-requires https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js, requires-body=1,max-size=0, tag=笑谱获取视频ck
 ############## surge
 
 #笑谱获取更新TOKEN
-笑谱获取更新TOKEN = type=http-response,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js
+笑谱获取更新TOKEN = type=http-response,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js
 
 #笑谱获取视频ck
-笑谱获取视频ck = type=http-requires,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/iboxpay.js
+笑谱获取视频ck = type=http-requires,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/JavaScript@master/Task/iboxpay.js
 
 
 
 */
-GXRZ = '3.20 视频ck有效期目前未知，增加失效判定，直播上限为5000，已适配'
+GXRZ = '4.15 视频ck有效期预计15天，直播上限为3000，已适配'
 const $ = Env("笑谱");
 $.idx = ($.idx = ($.getval('iboxpaySuffix') || '1') - 1) > 0 ? ($.idx + 1 + '') : ''; // 账号扩展字符
 const notify = $.isNode() ? require("./sendNotify") : ``;
 const COOKIE = $.isNode() ? require("./iboxpayCOOKIE") : ``;
 const logs = 0; // 0为关闭日志，1为开启
 const notifyttt = 1 // 0为关闭外部推送，1为12 23 点外部推送
-const notifyInterval = 2; // 0为关闭通知，1为所有通知，2为12 23 点通知  ， 3为 6 12 18 23 点通知 
+const notifyInterval = 2; // 0为关闭通知，1为所有通知，2为12 23 点通知  ， 3为 6 12 18 23 点通知
 const CS = 5
 $.message = '', COOKIES_SPLIT = '', CASH = '', Length = 0, LIVE = '', phone = '', sms = '', ddtime = '', spid = '', TOKEN = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', zbid = '', cashcs = '', newcashcs = '', liveId = '';
 let livecs = 0,
@@ -169,7 +169,7 @@ if ($.isNode()) {
     CASH = process.env.XP_CASH || 0;
     // 没有设置 XP_live 则默认0
     LIVE = process.env.XP_live || 1;
-    // 没有设置 XP_phone 则默认为 0 
+    // 没有设置 XP_phone 则默认为 0
     phone = process.env.XP_phone || 0;
     // 没有设置 XP_sms 则默认0  不获取TOKEN
     sms = process.env.XP_sms || 0
@@ -179,8 +179,8 @@ if ($.isNode() && process.env.XP_refreshTOKEN) {
     COOKIES_SPLIT = process.env.COOKIES_SPLIT || "\n";
     console.log(
         `============ cookies分隔符为：${JSON.stringify(
-      COOKIES_SPLIT
-    )} =============\n`
+            COOKIES_SPLIT
+        )} =============\n`
     );
     if (
         process.env.XP_refreshTOKEN &&
@@ -395,10 +395,10 @@ function GetCookie() {
 }
 console.log(
     `================== 脚本执行 - 北京时间(UTC+8)：${new Date(
-    new Date().getTime() +
-    new Date().getTimezoneOffset() * 60 * 1000 +
-    8 * 60 * 60 * 1000
-  ).toLocaleString()} =====================\n`
+        new Date().getTime() +
+        new Date().getTimezoneOffset() * 60 * 1000 +
+        8 * 60 * 60 * 1000
+    ).toLocaleString()} =====================\n`
 );
 console.log(
     `============ 共 ${Length} 个${$.name}账号=============\n`
@@ -518,7 +518,7 @@ if (isGetCookie) {
 
         await msgShow();
     })()
-    .catch((e) => {
+        .catch((e) => {
             $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
         })
         .finally(() => {
@@ -579,7 +579,7 @@ async function all() {
 
 
 
-        await refreshtoken(); //更新TOKEN       
+        await refreshtoken(); //更新TOKEN
         let cookie_is_live = await user(i + 1); //用户名
         if (!cookie_is_live) {
             continue;
@@ -614,7 +614,7 @@ async function all() {
             }
         }
 
-        if (LIVE >= 1 && nowTimes.getHours() >= 8 && nowTimes.getHours() <= 23 && $.sylist.resultCode && livecs < 10) {
+        if (LIVE >= 1 && nowTimes.getHours() >= 8 && nowTimes.getHours() <= 23 && $.sylist.resultCode && livecs < 6) {
             await liveslist(); //直播节目表
             if (liveIdcd >= 1) {
                 dd = liveIdcd * 35 - 34
@@ -679,7 +679,7 @@ function msgShow() {
 }
 
 
-//TOKEN获取  
+//TOKEN获取
 function getTOKEN(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -729,7 +729,7 @@ function getTOKEN(timeout = 0) {
         }, timeout)
     })
 }
-//TOKEN更新  
+//TOKEN更新
 function refreshtoken(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -822,7 +822,7 @@ function user(timeout = 0) {
         }, timeout)
     })
 }
-//金币信息  
+//金币信息
 function goldcoin(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -860,7 +860,7 @@ function goldcoin(timeout = 0) {
         }, timeout)
     })
 }
-//活动id 
+//活动id
 function hdid(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -905,7 +905,7 @@ function hdid(timeout = 0) {
     })
 }
 
-//账户信息  
+//账户信息
 function coin(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -952,7 +952,7 @@ function videoo(timeout = 0) {
             videoHEADER1 = videoHEADER[0].replace(`${token}`, `${TOKEN}`)
 
             SPID = videoBODY[0].split(`"actId":"`)[1].split(`"}`)[0]
-           
+
             let url = {
                 url: `https://veishop.iboxpay.com/nf_gateway/nf_customer_activity/day_cash/v1/give_gold_coin_by_video.json`,
                 headers: JSON.parse(videoHEADER1),
@@ -1248,7 +1248,7 @@ function sylist(timeout = 0) {
         }, timeout)
     })
 }
-//视频上限  
+//视频上限
 function splimit(timeout = 0) {
     return new Promise((resolve) => {
         setTimeout(() => {
