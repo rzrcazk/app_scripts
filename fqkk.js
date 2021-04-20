@@ -40,23 +40,23 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试
 [task_local]
 #番茄看看
-15 12,14,16,20 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/fqkk.js, tag=番茄看看, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, enabled=true
+15 12,14,16,20 * * * https://raw.githubusercontent.com/age174/-/main/fqkk.js, tag=番茄看看, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, enabled=true
 
 
 [rewrite_local]
 #番茄看看
-^http://m.*./reada/getTask url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/fqkk.js
+^http://m.*./reada/getTask url script-request-header https://raw.githubusercontent.com/age174/-/main/fqkk.js
 
 
 
 #loon
-^http://m.*./reada/getTask script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/fqkk.js, requires-header=true, timeout=10, tag=番茄看看
+^http://m.*./reada/getTask script-path=https://raw.githubusercontent.com/age174/-/main/fqkk.js, requires-header=true, timeout=10, tag=番茄看看
 
 
 
 #surge
 
-番茄看看 = type=http-request,pattern=^http://m.*./reada/getTask,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/fqkk.js,script-update-interval=0
+番茄看看 = type=http-request,pattern=^http://m.*./reada/getTask,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk.js,script-update-interval=0
 
 
 
