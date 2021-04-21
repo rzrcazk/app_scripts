@@ -20,17 +20,17 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试，定时可以多设置几次，没任务会停止运行的
 [task_local]
 #文创阅读小程序
-10 9-22 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wcxcx.js, tag=文创阅读小程序, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true
+10 9-22 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/wcxcx.js, tag=文创阅读小程序, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true
 
 [rewrite_local]
 #文创阅读小程序
-^https://yd\.wcyd168\.com/hfTask/getUserByToken url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wcxcx.js
+^https://yd\.wcyd168\.com/hfTask/getUserByToken url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/wcxcx.js
 
 #loon
-^https://yd\.wcyd168\.com/hfTask/getUserByToken script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wcxcx.js, requires-body=true, timeout=10, tag=文创阅读小程序
+^https://yd\.wcyd168\.com/hfTask/getUserByToken script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/wcxcx.js, requires-body=true, timeout=10, tag=文创阅读小程序
 
 #surge
-文创阅读小程序 = type=http-request,pattern=^https://yd\.wcyd168\.com/hfTask/getUserByToken,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wcxcx.js,script-update-interval=0
+文创阅读小程序 = type=http-request,pattern=^https://yd\.wcyd168\.com/hfTask/getUserByToken,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/wcxcx.js,script-update-interval=0
 
 [MITM]
 hostname = yd.wcyd168.com

@@ -1,4 +1,4 @@
 hostname =render.shuqireader.com,
 
 #收益 任务 极速版任务
-https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/shuqi.js
+https:\/\/render\.shuqireader\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/shuqi.js

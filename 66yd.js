@@ -29,23 +29,23 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试，定时可以多设置几次，没任务会停止运行的
 [task_local]
 #66阅读
-5,35 9-22 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/66yd.js, tag=66阅读, img-url=https://ae01.alicdn.com/kf/Uaade4566dd3744299956aa883f225386u.jpg, enabled=true
+5,35 9-22 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/66yd.js, tag=66阅读, img-url=https://ae01.alicdn.com/kf/Uaade4566dd3744299956aa883f225386u.jpg, enabled=true
 
 
 [rewrite_local]
 #66阅读
-http://v1uxnzj.cn/v4/user/get_user_task? url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/66yd.js
+http://v1uxnzj.cn/v4/user/get_user_task? url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/66yd.js
 
 
 
 #loon
-http://v1uxnzj.cn/v4/user/get_user_task? script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/66yd.js, requires-header=true, timeout=10, tag=66阅读
+http://v1uxnzj.cn/v4/user/get_user_task? script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/66yd.js, requires-header=true, timeout=10, tag=66阅读
 
 
 
 #surge
 
-66阅读 = type=http-request,pattern=http://v1uxnzj.cn/v4/user/get_user_task?,requires-header=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/66yd.js,script-update-interval=0
+66阅读 = type=http-request,pattern=http://v1uxnzj.cn/v4/user/get_user_task?,requires-header=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/66yd.js,script-update-interval=0
 
 
 

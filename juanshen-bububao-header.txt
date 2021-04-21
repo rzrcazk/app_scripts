@@ -2,4 +2,4 @@ hostname=bububao.duoshoutuan.com,
 
 ############## 圈x
 #步步宝获取TOKEN
-https:\/\/bububao\.duoshoutuan\.com\/user\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/bububao.js
+https:\/\/bububao\.duoshoutuan\.com\/user\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/bububao.js

@@ -10,8 +10,8 @@
 hostname = nebula.kuaishou.com, activity.m.kuaishou.com
 
 ## 快手和快手极速版
-https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js
-https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js
+https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/kuaishou.js
+https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/kuaishou.js
 
 */
 

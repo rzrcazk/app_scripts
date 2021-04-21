@@ -7,4 +7,6 @@ https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.0/qmyd.js
 https://raw.githubusercontent.com/rzrcazk/app_scripts/2.2/juanshen-gallery.json
 
 
-https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/juanshen-gallery.json
+https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/juanshen-gallery.json
+
+https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/juanshen.boxjs.json

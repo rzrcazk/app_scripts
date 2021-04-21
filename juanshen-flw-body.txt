@@ -3,4 +3,4 @@ hostname=huodong.fanli.com,passport.fanli.com,gw.fanli.com,
 ############## 圈x
 
 #返利网获取body
-https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/flw.js
+https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/flw.js

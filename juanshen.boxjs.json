@@ -2,7 +2,7 @@
     "id": "juanshen.app.sub",
     "name": "juanshen脚本订阅",
     "author": "@juanshen",
-    "icon": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/juanshen.jpeg",
+    "icon": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/juanshen.jpeg",
     "repo": "https://github.com/rzrcazk/app_scripts",
     "apps": [{
             "id": "qczjspeed",
@@ -38,9 +38,9 @@
                     "desc": "默认0点后提现，可设置 0 ~ 23  "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qczjspeed.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qczjspeed.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qczjspeed.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qczjspeed.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qczjspeed.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qczjspeed.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qczjspeed.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qczjspeed.js"
         },
         {
             "id": "xiaole",
@@ -62,9 +62,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/xiaole.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/xiaole.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/xiaole.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/xiaole.js"
         },
         {
             "id": "iboxpay",
@@ -114,9 +114,9 @@
                     "desc": "输入短信验证码，默认为0，不启动获取token功能"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/iboxpay.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/iboxpay.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/iboxpay.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/iboxpay.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/iboxpay.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/iboxpay.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/iboxpay.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/iboxpay.js"
         },
         {
             "id": "flw",
@@ -152,9 +152,9 @@
                     "desc": "默认0，可设置设置 0 5 50 100"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/flw.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/flw.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/flw.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/flw.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/flw.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/flw.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/flw.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/flw.js"
         },
         {
             "id": "githubAC",
@@ -183,9 +183,9 @@
                     "desc": "可设置0 不启动、js序号数 指定哪个js任务随githubAC运行而启动、 888 全部js启动"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/githubAC.js",
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/githubAC.js",
             "icons": ["https://github.githubassets.com/images/modules/site/home/astro-mona.jpg", "https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/githubAC.js"
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/githubAC.js"
         },
         {
             "id": "zhima",
@@ -214,9 +214,9 @@
                     "desc": "0不提现，可设置 0 0.3 0.5 1 5 10 30 50 100 等"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/zhima.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/zhima.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/zhima.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/zhima.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/zhima.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/zhima.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/zhima.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/zhima.js"
         },
         {
             "id": "QQread",
@@ -238,9 +238,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/QQread.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/QQread.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/QQread.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/QQread.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/QQread.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/QQread.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/QQread.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/QQread.js"
         },
         {
             "id": "bububao",
@@ -269,9 +269,9 @@
                     "desc": "0不提现，可设置 0 0.3 50 100 200 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/bububao.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/bububao.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/bububao.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/bububao.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/bububao.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/bububao.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/bububao.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/bububao.js"
         },
 
         {
@@ -301,9 +301,9 @@
                     "desc": "0不提现，可设置 0 0.3 1 5 50 100 200 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/yuedongzu.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/yuedongzu.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/yuedongzu.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/yuedongzu.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/yuedongzu.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/yuedongzu.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/yuedongzu.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/yuedongzu.js"
         },
 
         {
@@ -333,9 +333,9 @@
                     "desc": "0不提现，可设置 0 0.3 1 10 20 30 100 200 300 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qmyd.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qmyd.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qmyd.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/yuedongzu.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qmyd.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qmyd.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qmyd.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/yuedongzu.js"
         }, {
             "id": "shuqi",
             "name": "书旗小说APP",
@@ -363,9 +363,9 @@
                     "desc": "0关闭 1开启,默认关闭"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/shuqi.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/shuqi.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/shuqi.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/yuedongzu.js"
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/shuqi.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/shuqi.png", "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/shuqi.png"],
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/yuedongzu.js"
         },
 
         {
@@ -405,9 +405,9 @@
                 "rows": 8,
                 "desc": "番茄看看CK 列表 (JSON 格式)"
             }],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/fqkk.js",
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/fqkk.js",
             "icons": ["https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg", "https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/fqkk.js"
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/fqkk.js"
         },
         {
             "id": "ysm",
@@ -457,9 +457,9 @@
                 "rows": 8,
                 "desc": "云扫码CK 列表 (JSON 格式)"
             }],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/ysm.js",
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/ysm.js",
             "icons": ["https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png", "https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png"],
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/ysm.js"
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/ysm.js"
         },
         {
             "author": "@juanshen",
@@ -492,10 +492,10 @@
                     "desc": "极速版提现金额，默认30，前提是绑定支付方式"
                 }
             ],
-            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js",
+            "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/kuaishou.js",
             "id": "kuaishou",
 
-            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js",
+            "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/kuaishou.js",
             "name": "快手极速版",
             "icons": [
                 "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/kuaishou.png",

@@ -2,4 +2,4 @@ hostname=iostgw6.reader.qq.com,newios.reader.qq.com,
 
 ############## 圈x
 #QQ阅读APP获取url
-https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/QQread.js
+https:\/\/(iostgw6\.reader\.qq\.com\/*||newios\.reader\.qq\.com\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/QQread.js
