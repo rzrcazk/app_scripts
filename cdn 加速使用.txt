@@ -4,4 +4,7 @@ https://cdn.jsdelivr.net/gh/用户/repo@version/file
 https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.0/qmyd.js
 
 
-更新
+https://raw.githubusercontent.com/rzrcazk/app_scripts/2.2/juanshen-gallery.json
+
+
+https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/juanshen-gallery.json
