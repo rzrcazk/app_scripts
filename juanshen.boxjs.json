@@ -494,6 +494,7 @@
             ],
             "repo": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js",
             "id": "kuaishou",
+
             "script": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js",
             "name": "快手极速版",
             "icons": [
