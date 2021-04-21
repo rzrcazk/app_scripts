@@ -1,12 +1,12 @@
 {
-    "name": "ZIYE-task订阅",
+    "name": "juanshen-task订阅",
     "description": "TG频道地址:https://t.me/ziyescript",
     "task": [
         {
             "config": "2 */30 * * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.js, img-url=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.png, tag=汽车之家极速版, enabled=false"
         },
         {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ziye-qczjspeed-header..txt, img-url=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.png, tag=汽车之家极速版获取header, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ziye-qczjspeed-header.txt, img-url=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.png, tag=汽车之家极速版获取header, enabled=false",
             "addons": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ziye-qczjspeed-header.txt, tag=汽车之家极速版获取header, update-interval=86400, opt-parser=false, enabled=false"
         },
         {
