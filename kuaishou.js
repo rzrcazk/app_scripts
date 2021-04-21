@@ -4,6 +4,15 @@
 本脚本仅适用于快手双版本签到，仅支持正式版获取多Cookie，建议使用正式版获取Cookie，点击视频页悬浮红包，或者进入设置，点击"积分兑好礼"即可;
 本脚本仅在签到成功时通知;
 兼容Nodejs,把获取的Cookie填入KS_TOKEN，多账号用"&"分开
+
+
+
+hostname = nebula.kuaishou.com, activity.m.kuaishou.com
+
+## 快手和快手极速版
+https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js
+https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/kuaishou.js
+
 */
 
 const $ = new Env('快手视频')
