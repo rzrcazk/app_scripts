@@ -3,7 +3,7 @@
 github地址 https://github.com/rzrcazk
 TG频道地址  https://t.me/juanshenscript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juanshen.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/juanshen.boxjs.json
 
 转载请备注个名字，谢谢
 
@@ -24,7 +24,7 @@ boxjs链接  https://raw.githubusercontent.com/rzrcazk/app_scripts/master/juansh
 多账号换行
 
 
-第一步 微信扫码 https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png  获取授权
+第一步 微信扫码 https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.png  获取授权
 
 第二步 
 开代理软件，添加主机名 重写 ，然后点 我的 获取url header
@@ -42,17 +42,17 @@ hostname=minapp.xqrobot.net,
 
 ############## 圈x
 #小乐获取ck
-https:\/\/minapp\.xqrobot\.net\/* url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js
+https:\/\/minapp\.xqrobot\.net\/* url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.js
 
 ############## loon
 
 #小乐获取ck
-http-request https:\/\/minapp\.xqrobot\.net\/* script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js, requires-header=true, tag=小乐获取ck
+http-request https:\/\/minapp\.xqrobot\.net\/* script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.js, requires-header=true, tag=小乐获取ck
 
 ############## surge
 
 #小乐获取ck
-小乐获取ck = type=http-request,pattern=https:\/\/minapp\.xqrobot\.net\/*,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.js,
+小乐获取ck = type=http-request,pattern=https:\/\/minapp\.xqrobot\.net\/*,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.js,
 
 */
 const $ = Env("小乐");
@@ -305,8 +305,8 @@ async function all() {
         $.msg(
             $.name,
             '提示：⚠️请点击前往获取cookie\n',
-            'https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png', {
-                "open-url": "https://raw.githubusercontent.com/rzrcazk/app_scripts/master/xiaole.png"
+            'https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.png', {
+                "open-url": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/xiaole.png"
             }
         );
         return;

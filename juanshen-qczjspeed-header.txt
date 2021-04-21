@@ -1,4 +1,4 @@
 hostname=mobile.app.autohome.com.cn,
 ############## 圈x
 #汽车之家极速版获取header
-https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/qczjspeed.js
+https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/qczjspeed.js

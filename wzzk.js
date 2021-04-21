@@ -31,23 +31,23 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试，定时可以多设置几次，没任务会停止运行的
 [task_local]
 #微客众智
-5,35 9-22 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/wzzk.js, tag=微客众智, img-url=https://ae01.alicdn.com/kf/Uff0a0bb9e66a479591c9b02c176fd276A.jpg, enabled=true
+5,35 9-22 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wzzk.js, tag=微客众智, img-url=https://ae01.alicdn.com/kf/Uff0a0bb9e66a479591c9b02c176fd276A.jpg, enabled=true
 
 
 [rewrite_local]
 #微客众智
-^http://wx.tiantianaiyuedu.site/ url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/wzzk.js
+^http://wx.tiantianaiyuedu.site/ url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wzzk.js
 
 
 
 #loon
-http://wx.tiantianaiyuedu.site/ script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/wzzk.js, requires-body=true, timeout=10, tag=微客众智
+http://wx.tiantianaiyuedu.site/ script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wzzk.js, requires-body=true, timeout=10, tag=微客众智
 
 
 
 #surge
 
-微客众智 = type=http-request,pattern=http://wx.tiantianaiyuedu.site/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/wzzk.js,script-update-interval=0
+微客众智 = type=http-request,pattern=http://wx.tiantianaiyuedu.site/,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/wzzk.js,script-update-interval=0
 
 
 

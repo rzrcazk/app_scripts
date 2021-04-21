@@ -1,4 +1,7 @@
 
 https://cdn.jsdelivr.net/gh/用户/repo@version/file
 
-https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/qmyd.js
+https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.0/qmyd.js
+
+
+更新

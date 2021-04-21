@@ -29,17 +29,17 @@ V生活
 圈X配置如下，其他软件自行测试
 [task_local]
 #V生活
-15 9 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/vsh.js, tag=V生活, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, enabled=true
+15 9 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/vsh.js, tag=V生活, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, enabled=true
 
 [rewrite_local]
 #V生活
-http://iosvsh.zwzanwm.cn/ url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/vsh.js
+http://iosvsh.zwzanwm.cn/ url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/vsh.js
 
 #loon
-http://iosvsh.zwzanwm.cn/ script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/vsh.js, requires-body=true, timeout=10, tag=V生活
+http://iosvsh.zwzanwm.cn/ script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/vsh.js, requires-body=true, timeout=10, tag=V生活
 
 #surge
-V生活 = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/vsh.js,script-update-interval=0
+V生活 = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/vsh.js,script-update-interval=0
 
 [MITM]
 hostname = iosvsh.zwzanwm.cn

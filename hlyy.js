@@ -24,17 +24,17 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试，定时可以多设置几次，没任务会停止运行的
 [task_local]
 #葫芦音乐
-0,30 8-23 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/hlyy.js, tag=葫芦音乐, img-url=https://ae01.alicdn.com/kf/U49d941738c0c41569f7db55825943375f.jpg, enabled=true
+0,30 8-23 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/hlyy.js, tag=葫芦音乐, img-url=https://ae01.alicdn.com/kf/U49d941738c0c41569f7db55825943375f.jpg, enabled=true
 
 [rewrite_local]
 #葫芦音乐
-https://play.gxhuancai.com/hlplay/task/doTasks url script-request-header https://raw.githubusercontent.com/rzrcazk/app_scripts/master/hlyy.js
+https://play.gxhuancai.com/hlplay/task/doTasks url script-request-header https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/hlyy.js
 
 #loon
-https://play.gxhuancai.com/hlplay/task/doTasks script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/hlyy.js, requires-header=true, timeout=10, tag=葫芦音乐
+https://play.gxhuancai.com/hlplay/task/doTasks script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/hlyy.js, requires-header=true, timeout=10, tag=葫芦音乐
 
 #surge
-葫芦音乐 = type=http-request,pattern=https://play.gxhuancai.com/hlplay/task/doTasks,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/hlyy.js,script-update-interval=0
+葫芦音乐 = type=http-request,pattern=https://play.gxhuancai.com/hlplay/task/doTasks,requires-header=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/hlyy.js,script-update-interval=0
 
 [MITM]
 hostname = play.gxhuancai.com

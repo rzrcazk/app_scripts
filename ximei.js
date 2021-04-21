@@ -30,23 +30,23 @@ https://raw.githubusercontent.com/age174/-/main/feizao.box.json
 圈X配置如下，其他软件自行测试，定时可以多设置几次，没任务会停止运行的
 [task_local]
 #西梅
-20 9 * * * https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ximei.js, tag=西梅, img-url=https://ae01.alicdn.com/kf/Ucd02ea79ef22473daf3576486d134509Q.jpg, enabled=true
+20 9 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/ximei.js, tag=西梅, img-url=https://ae01.alicdn.com/kf/Ucd02ea79ef22473daf3576486d134509Q.jpg, enabled=true
 
 
 [rewrite_local]
 #西梅
-https://app.hubonews.com/.+/articles/list url script-request-body https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ximei.js
+https://app.hubonews.com/.+/articles/list url script-request-body https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/ximei.js
 
 
 
 #loon
-https://app.hubonews.com/.+/articles/list script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ximei.js, requires-body=true, timeout=10, tag=西梅
+https://app.hubonews.com/.+/articles/list script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/ximei.js, requires-body=true, timeout=10, tag=西梅
 
 
 
 #surge
 
-西梅 = type=http-request,pattern=https://app.hubonews.com/.+/articles/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/rzrcazk/app_scripts/master/ximei.js,script-update-interval=0
+西梅 = type=http-request,pattern=https://app.hubonews.com/.+/articles/list,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts@2.2/ximei.js,script-update-interval=0
 
 
 
