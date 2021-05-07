@@ -116,7 +116,7 @@
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
         },
         {
-            "config": "20 15 */2 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/Youth_read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true",
+            "config": "20 15 */2 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/youth_rad.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true",
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_youthread.txt, tag=中青阅读, update-interval=-1, opt-parser=false, enabled=true"
         },
         {
