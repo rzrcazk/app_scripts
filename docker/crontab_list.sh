@@ -20,7 +20,7 @@
 */10 5-23 * * * node /scripts/youth.js >> /scripts/logs/youth.log 2>&1
 
 ## 中青自动阅读
-10 */2 * * * node /scripts/youth_Read.js >> /scripts/logs/youth_Read.log 2>&1
+10 */2 * * * node /scripts/youth_read.js >> /scripts/logs/youth_read.log 2>&1
 
 ## 中青浏览赚
 20 5 10 * * * node /scripts/youth_gain.js >> /scripts/logs/youth_gain.log 2>&1
