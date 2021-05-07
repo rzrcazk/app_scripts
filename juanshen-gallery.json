@@ -110,6 +110,18 @@
         {
             "config": "0 0 0 1 1 * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/juanshen-shuqi-body3.txt, img-url=https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/shuqi.png, tag=书旗小说获取时长body, enabled=false",
             "addons": "https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/juanshen-shuqi-body3.txt, tag=书旗小说获取时长body, update-interval=86400, opt-parser=false, enabled=false"
+        },
+        {
+            "config": "20 11 8 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
+        },
+        {
+            "config": "20 15 */2 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/Youth_read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_youthread.txt, tag=中青阅读, update-interval=-1, opt-parser=false, enabled=true"
+        },
+        {
+            "config": "20 5 10 * * * https://cdn.jsdelivr.net/gh/rzrcazk/app_scripts/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
         }
     ]
 }
