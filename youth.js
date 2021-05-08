@@ -5,6 +5,19 @@
 食用说明请查看本仓库目录Taskconf/youth/readme.md，其中打卡挑战赛可通过Boxjs开关，报名时间为23点，早起打卡时间为早5点，报名需1000青豆押金，打卡成功可返1000+青豆，打卡失败则押金不予返还，请注意时间运行，
 转发文章获得青豆不实，请无视
 
+1 获取cookie 的方法
+
+youth.conf
+打开极速版APP，进去我的"任务中心"，提示获取Cookie  YOUTH_HEADER
+
+打开一篇短文资讯，提示获取阅读请求  YOUTH_ARTBODY
+
+多阅读几篇短文，随机获取阅读时长请求(至少1分钟左右，增加时长有关) YOUTH_TIME
+
+YOUTH_NOTIFY_CONTROL true/false 中青通知开关
+默认当转盘次数为50或者100并且余额大于10元时推送通知
+-
+
 */
 
 const $ = new Env("中青看点");

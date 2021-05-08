@@ -6,6 +6,8 @@ Github Actions使用方法见[@lxk0301](https://raw.githubusercontent.com/lxk030
 
 多个请求体时用'&'号或者换行隔开" ‼️
 
+YOUTH_READ
+
 */
 
 const $ = new Env("中青看点阅读")
