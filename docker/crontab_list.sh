@@ -23,7 +23,7 @@
 10 */2 * * * node /scripts/youth_read.js >> /scripts/logs/youth_read.log 2>&1
 
 ## 中青浏览赚
-20 03 22 * * * node /scripts/youth_gain.js >> /scripts/logs/youth_gain.log 2>&1
+20 5 22 * * * node /scripts/youth_gain.js >> /scripts/logs/youth_gain.log 2>&1
 
 ## 笑谱
 ## */20 8-23 * * * node /scripts/iboxpay.js >> /scripts/logs/iboxpay.log 2>&1
