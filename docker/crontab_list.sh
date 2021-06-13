@@ -36,3 +36,60 @@
 
 ## 吾爱破解
 0 9,18 * * * node /scripts/52pojie.js >> /scripts/logs/52pojie.log 2>&1
+
+#柠檬拆红包
+
+0 0 * * *  node /scripts/jd_chb.js >> /scripts/logs/jd_chb.log 2>&1
+
+
+## 柠檬大牌闪购红包雨
+1 0 * * *  node /scripts/jd_dphby.js >> /scripts/logs/jd_dphby.log 2>&1
+
+## 柠檬特物国创IP
+
+1 0 * * *  node /scripts/jd_gcip.js >> /scripts/logs/jd_gcip.log 2>&1
+
+## 惊喜工厂抢茅台 自己设置时间
+1 0 * * * node /scripts/jd_jxgc.js >> /scripts/logs/jd_jxgc.log 2>&1
+
+## 柠檬是兄弟就砍我
+
+0 0 * * *  node /scripts/jd_kanjia.js >> /scripts/logs/jd_kanjia.log 2>&1
+
+# 柠檬是兄弟就砍我2
+0 5 * * *  node /scripts/jd_kanjia2.js >> /scripts/logs/jd_kanjia2.log 2>&1
+
+## 柠檬东东泡泡大战
+
+1 0 * * *  node /scripts/jd_ppdz.js >> /scripts/logs/jd_ppdz.log 2>&1
+
+## 柠檬618惊奇探秘夜
+0 0 * * *  node /scripts/jd_qqtmy.js >> /scripts/logs/jd_qqtmy.log 2>&1
+
+## 柠檬华为荣耀618
+1 0 * * * node /scripts/jd_cctx.js >> /scripts/logs/jd_cctx.log 2>&1
+
+## 柠檬省钱大赢家
+0,2 0 * * * node /scripts/jd_sq.js >> /scripts/logs/jd_sq.log 2>&1
+
+## 柠檬省钱大赢家
+0,2 0 * * * node /scripts/jd_sqdyj.js >> /scripts/logs/jd_sqdyj.log 2>&1
+
+## 柠檬推一推
+0 0 * * * node /scripts/jd_tyt.js >> /scripts/logs/jd_tyt.log 2>&1
+
+## 柠檬我是大老板农场
+5 6-18/6 * * * node /scripts/jd_wsdlb.js >> /scripts/logs/jd_wsdlb.log 2>&1
+
+## 柠檬品新潮牌联欢
+1 0 * * * node /scripts/jd_xcpp.js >> /scripts/logs/jd_xcpp.log 2>&1
+
+## 柠檬618限时盲盒
+0 0 * * * node /scripts/jd_xsmh.js >> /scripts/logs/jd_xsmh.log 2>&1
+
+## 柠檬邀请有礼
+0 0 * * * node /scripts/jd_yqyl.js >> /scripts/logs/jd_yqyl.log 2>&1
+
+## 柠檬赚金币
+0 5 * * * node /scripts/jd_zjb.js >> /scripts/logs/jd_zjb.log 2>&1
+
